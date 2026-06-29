@@ -2,10 +2,11 @@
 
 ## Doel van deze sessie
 Dit project is de **volledige digitale brein-assistent** van Sjoerd Bezemer (C&W PDS Netherlands).
-Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten, projectwerk en dagelijkse planning.
+Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten, business development en dagelijkse planning.
 
 ## Gebruiker
 - **Naam:** Sjoerd Bezemer
+- **Functie:** Associate, Business Development – Senior Project Manager
 - **Organisatie:** Cushman & Wakefield Project Delivery Services, Nederland
 - **E-mail (werk):** Sjoerd.Bezemer@cushwake.com
 - **E-mail (privé):** sjbezemer@gmail.com
