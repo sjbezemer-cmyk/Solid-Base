@@ -143,6 +143,7 @@ def build(slug, out=None):
         c.number_format = '#,##0.00 "€"'
         row += 1
 
+    wb.calculation.fullCalcOnLoad = True   # Excel herberekent alles bij openen
     wb.save(out)
     n_regels = sum(len(d["regels"]) for d in data["documenten"])
     totaal = round(sum(v[2] for v in per_lev.values()), 2)

@@ -187,6 +187,7 @@ def build(slug, out=None):
     for i in range(25):
         cq.cell(row=15 + i, column=2).value = suppliers[i] if i < len(suppliers) else "-"
 
+    wb.calculation.fullCalcOnLoad = True   # Excel herberekent alles bij openen
     wb.save(out)
     n = len(lines)
     tot = round(sum(round(rg["aantal"] * rg["prijs"], 2) for _, rg in lines), 2)

@@ -126,6 +126,7 @@ def cmd_init(args):
         bp["C23"] = args.locatie
     if args.m2:
         bp["E23"] = args.m2
+    wb.calculation.fullCalcOnLoad = True   # Excel herberekent alles bij openen
     wb.save(xlsx)
     reg.write_text(json.dumps({"project": args.naam, "slug": slug, "offertes": []},
                               indent=2, ensure_ascii=False), encoding="utf-8")
@@ -178,6 +179,7 @@ def cmd_add(args):
     })
     suppliers = sorted({o["leverancier"] for o in reg["offertes"]})
     sync_check_sheet(wb, suppliers)
+    wb.calculation.fullCalcOnLoad = True   # Excel herberekent alles bij openen
     wb.save(xlsx)
     reg_path.write_text(json.dumps(reg, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"OK: {doc['leverancier']} {doc['type']} {doc['referentie']}: "
