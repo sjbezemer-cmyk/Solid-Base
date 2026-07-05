@@ -1,2 +1,5 @@
 # Persoonlijke, machine-specifieke Claude Code config (niet delen via git)
 .claude/settings.local.json
+
+__pycache__/
+*.pyc
