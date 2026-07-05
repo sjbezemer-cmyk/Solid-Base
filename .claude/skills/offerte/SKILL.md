@@ -58,6 +58,13 @@ Je verwerkt PDF-offertes/opdrachten/facturen van leveranciers in de projectcalcu
    bestand `calculatie/projecten/<slug>/` + registerwijziging, commitbericht
    `"<project>: <leverancier> <type> <referentie> (EUR <bedrag>)"`.
 
+7. **Sync naar SJBrain (verplichte slotstap).** Werk de projectnotitie in de
+   Obsidian vault bij (`vault_write`/`vault_update`, folder `Projects`, pad
+   `/<project>/<slug>-calculatie-inkoop.md`): tabel totalen per leverancier,
+   totaalbedrag, datum, en de lijst offertes zonder opdracht. Bestaat de notitie
+   nog niet, maak hem dan aan naar het voorbeeld van
+   `Projects/Kioti/kioti-2-calculatie-inkoop.md`.
+
 ## Batchverwerking (hele projectmap)
 
 Vraagt Sjoerd om een hele OneDrive-map te verwerken: zoek alle PDF's in de map

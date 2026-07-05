@@ -23,6 +23,13 @@ Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten,
 | Google Drive | `mcp__958235f6__*` | Bestanden |
 | Gmail | `mcp__e5548b38__*` | Privé-mail |
 
+## SJBrain is de bron van waarheid (ALTIJD toepassen)
+Claude Code werkt **altijd vanuit het SJBrain** (Obsidian vault via `mcp__SJBrain_MPC__vault_*`):
+1. **Begin van elke taak:** zoek eerst in de vault naar bestaande context (`vault_search` op project-/onderwerpnaam, o.a. in `Projects`, `Skills`, `Context`). Gebruik wat er staat; vraag niet naar dingen die al in het brein staan.
+2. **Einde van elke substantiële taak:** schrijf het resultaat terug naar de vault — projectresultaten in `Projects/<project>/`, nieuwe werkwijzen/routines in `Skills/`. Werk bestaande notities bij in plaats van duplicaten te maken.
+3. **Rolverdeling:** de vault is de leesbare waarheid (wat & waarom, voor Sjoerd), de Solid-Base repo is de werkende waarheid (tools, templates, data). Houd beide in sync.
+4. Kleine vragen of opzoekacties hoeven géén vault-notitie; alleen werk met blijvende waarde.
+
 ## Vault-regels (voorkom timeouts)
 - Roep vault-tools **stap voor stap** aan — nooit meerdere vault-calls tegelijk.
 - Volgorde: `vault_search` → `vault_read` → bewerken met `vault_update` of `vault_append`.
