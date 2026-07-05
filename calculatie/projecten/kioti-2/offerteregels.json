@@ -1,0 +1,146 @@
+{
+  "project": "Kioti Rotterdam WTC",
+  "slug": "kioti-2",
+  "peildatum": "2026-07-05",
+  "documenten": [
+    {"leverancier": "SPIE", "type": "opdracht", "referentie": "2500211", "datum": "2025-06-16", "bron": "01 SPIE/25002 Kioti Build Opdracht Spie 001 - 2500211.pdf", "regels": [
+      {"code": "230", "omschrijving": "Elektrische installatie (post 0018)", "aantal": 1, "eenheid": "post", "prijs": 26603.03},
+      {"code": "240", "omschrijving": "Video- en intercominstallatie met deursturing (post 0019)", "aantal": 1, "eenheid": "post", "prijs": 4007.41},
+      {"code": "260", "omschrijving": "Brandmeld- en ontruimingsinstallatie (post 0021)", "aantal": 1, "eenheid": "post", "prijs": 14930.90}
+    ]},
+    {"leverancier": "SPIE", "type": "opdracht", "referentie": "2500429", "datum": "2025-11-19", "bron": "01 SPIE/25002 Kioti Build Opdracht Spie 002 -2500429.pdf (offerte Q365901148)", "regels": [
+      {"code": "230", "omschrijving": "Maken van extra WCD's in diverse ruimtes", "aantal": 1, "eenheid": "post", "prijs": 3634.04},
+      {"code": "230", "omschrijving": "Twee armaturen demonteren en stekkerblok plaatsen bij de pantry", "aantal": 1, "eenheid": "post", "prijs": 662.18},
+      {"code": "230", "omschrijving": "Extra groep en voeding aangelegd t.b.v. de vaatwasser", "aantal": 1, "eenheid": "post", "prijs": 1268.97},
+      {"code": "230", "omschrijving": "Dubbele WCD's geplaatst in het treinzitje bij ruimte 12.10", "aantal": 1, "eenheid": "post", "prijs": 706.78},
+      {"code": "230", "omschrijving": "Overige meerwerkposten (posten 4-5, niet gespecificeerd in offertebrief)", "aantal": 1, "eenheid": "post", "prijs": 455.22, "opmerking": "sluitpost naar opdrachttotaal 6.727,19"}
+    ]},
+    {"leverancier": "SPIE", "type": "opdracht", "referentie": "2600008", "datum": "2026-01-09", "bron": "01 SPIE/25002 Kioti Build Opdracht Spie 003 -2600008 getekend.pdf (offerte 19633-43997)", "regels": [
+      {"code": "240", "omschrijving": "Leveren en monteren 1 Ring deurbel + 1 UPD", "aantal": 1, "eenheid": "post", "prijs": 1226.21}
+    ]},
+    {"leverancier": "4Some", "type": "opdracht", "referentie": "2500210", "datum": "2025-06-16", "bron": "02 4SUM/25002 Kioti Build Opdracht 4Some 001 - 2500210.pdf (offerte 10000/429805)", "regels": [
+      {"code": "210", "omschrijving": "Aanpassingen ventilatie", "aantal": 1, "eenheid": "post", "prijs": 32841.00},
+      {"code": "210", "omschrijving": "Aanpassingen klimaatplafond (raming)", "aantal": 1, "eenheid": "post", "prijs": 9500.00},
+      {"code": "210", "omschrijving": "Aanpassingen GBS (raming)", "aantal": 1, "eenheid": "post", "prijs": 17000.00},
+      {"code": "210", "omschrijving": "CV- en GKW-aanpassingen", "aantal": 1, "eenheid": "post", "prijs": 2820.00},
+      {"code": "220", "omschrijving": "VWA en tapwater pantry", "aantal": 1, "eenheid": "post", "prijs": 4454.00}
+    ]},
+    {"leverancier": "4Some", "type": "opdracht", "referentie": "2600012", "datum": "2026-01-13", "bron": "02 4SUM/25002 Kioti Build Opdracht 4Some 002 - 2600012 getekend.PDF", "regels": [
+      {"code": "220", "omschrijving": "Leveren en plaatsen Quooker Cube gekoeld water", "aantal": 1, "eenheid": "st", "prijs": 2270.00}
+    ]},
+    {"leverancier": "Technoproject", "type": "opdracht", "referentie": "2500212", "datum": "2025-06-16", "bron": "03 Techno Project/Opdracht 2500212 + offerte 1250270.B (regeldetail)", "regels": [
+      {"code": "322", "omschrijving": "Wandconstructie TP-1000 melamine 0-voeg dubbel gips", "aantal": 110, "eenheid": "m2", "prijs": 82.00},
+      {"code": "322", "omschrijving": "90-graden hoek", "aantal": 1, "eenheid": "st", "prijs": 115.00},
+      {"code": "322", "omschrijving": "Muuraansluiting", "aantal": 6, "eenheid": "st", "prijs": 25.00},
+      {"code": "322", "omschrijving": "Eindlijst", "aantal": 10, "eenheid": "st", "prijs": 42.50},
+      {"code": "322", "omschrijving": "Gevelaansluitingen", "aantal": 4, "eenheid": "st", "prijs": 225.00},
+      {"code": "322", "omschrijving": "Wandconstructie TP-3000 glazen systeemwand", "aantal": 112, "eenheid": "m2", "prijs": 28.00},
+      {"code": "322", "omschrijving": "Koker 100x100", "aantal": 1, "eenheid": "st", "prijs": 150.00},
+      {"code": "322", "omschrijving": "Poly geslepen glaspaneel blank gelaagd glas 66.A2", "aantal": 96, "eenheid": "m2", "prijs": 135.00},
+      {"code": "322", "omschrijving": "Wanddelen", "aantal": 10, "eenheid": "st", "prijs": 50.00},
+      {"code": "322", "omschrijving": "Glazen verstekhoeken", "aantal": 4, "eenheid": "st", "prijs": 220.00},
+      {"code": "322", "omschrijving": "Montagekosten dichte systeemwanden", "aantal": 110, "eenheid": "m2", "prijs": 38.00},
+      {"code": "322", "omschrijving": "Montagekosten glazen systeemwanden", "aantal": 112, "eenheid": "m2", "prijs": 32.00},
+      {"code": "323", "omschrijving": "TP-3000 kozijn met glazen kaderdeur v.z.v. 44.A2 glas", "aantal": 8, "eenheid": "st", "prijs": 1150.00},
+      {"code": "323", "omschrijving": "Leveren en monteren valdorpel", "aantal": 8, "eenheid": "st", "prijs": 95.00},
+      {"code": "322", "omschrijving": "Transpalace 110s beweegbare dubbelwandige glazen paneelwand 45 dB Rw", "aantal": 1, "eenheid": "stelpost", "prijs": 24960.00},
+      {"code": "322", "omschrijving": "Transportkosten panelenwand", "aantal": 1, "eenheid": "stelpost", "prijs": 1500.00},
+      {"code": "322", "omschrijving": "Glasprofielen op kleur brengen RAL 9005 mat", "aantal": 1, "eenheid": "post", "prijs": 400.00},
+      {"code": "322", "omschrijving": "Restmateriaal afvoeren met rolcontainers", "aantal": 1, "eenheid": "st", "prijs": 1250.00},
+      {"code": "322", "omschrijving": "Vrachtkosten voor glas en MS apart", "aantal": 2, "eenheid": "st", "prijs": 400.00},
+      {"code": "322", "omschrijving": "Transport middels lift MS-wanden, incl. op maat zagen platen", "aantal": 1, "eenheid": "post", "prijs": 1920.00},
+      {"code": "322", "omschrijving": "Transport middels lift glaswanden", "aantal": 1, "eenheid": "post", "prijs": 1200.00},
+      {"code": "322", "omschrijving": "Projectcoördinatie", "aantal": 1, "eenheid": "post", "prijs": 2500.00},
+      {"code": "322", "omschrijving": "Eenmalige relatiekorting", "aantal": 1, "eenheid": "post", "prijs": -990.00}
+    ]},
+    {"leverancier": "Technoproject", "type": "opdracht", "referentie": "2500430", "datum": "2025-11-20", "bron": "03 Techno Project/Opdracht 2500430 (offerte 1250539)", "regels": [
+      {"code": "323", "omschrijving": "Cilinderslot deur CEO office leveren en plaatsen, incl. 3 sleutels", "aantal": 1, "eenheid": "st", "prijs": 290.00}
+    ]},
+    {"leverancier": "Technoproject", "type": "offerte", "referentie": "1250355", "datum": "2025-10-06", "bron": "03 Techno Project/003 Meerwerk A - Kioti WTC Rotterdam - 07-10-25.pdf", "regels": [
+      {"code": "340", "omschrijving": "Leveren en aanbrengen sonorex 27 dB (max hoogte 600 mm)", "aantal": 85, "eenheid": "m1", "prijs": 50.00},
+      {"code": "340", "omschrijving": "Sparingen maken t.b.v. leidingwerk", "aantal": 1, "eenheid": "stelpost", "prijs": 1250.00},
+      {"code": "340", "omschrijving": "Leveren en monteren MS-koven + smeren en sauzen", "aantal": 18, "eenheid": "m1", "prijs": 165.00, "opmerking": "optie 'Access points' EUR 750 niet in totaal opgenomen"},
+      {"code": "322", "omschrijving": "Wandconstructie TP-1000 melamine 0-voeg dubbel gips (meerwerk)", "aantal": 2, "eenheid": "m2", "prijs": 82.00},
+      {"code": "322", "omschrijving": "Toeslag gekleurde melamine WA01 (Saréco 131/7 FS)", "aantal": 52, "eenheid": "m2", "prijs": 22.50},
+      {"code": "322", "omschrijving": "Toeslag gekleurde melamine WA02 (Saréco HL1236 HN / HN334 HN)", "aantal": 79, "eenheid": "m2", "prijs": 25.00},
+      {"code": "322", "omschrijving": "Toeslag gekleurde melamine WA03 (Saréco U212 RM)", "aantal": 60, "eenheid": "m2", "prijs": 24.00},
+      {"code": "322", "omschrijving": "Horizontale en verticale vlakverdeling d.m.v. platstrips (beide zijden)", "aantal": 96, "eenheid": "m2", "prijs": 65.75},
+      {"code": "322", "omschrijving": "Montagekosten dichte systeemwanden (meerwerk)", "aantal": 2, "eenheid": "m2", "prijs": 38.00},
+      {"code": "323", "omschrijving": "Cilinder leveren en plaatsen (incl. 3 sleutels)", "aantal": 1, "eenheid": "st", "prijs": 290.00, "opmerking": "mogelijk dubbel met opdracht 2500430 (zelfde cilinderslot)"},
+      {"code": "322", "omschrijving": "Extra restmateriaal afvoeren met rolcontainers (2x)", "aantal": 1, "eenheid": "st", "prijs": 1450.00},
+      {"code": "322", "omschrijving": "Verrekening vloerschade", "aantal": 1, "eenheid": "post", "prijs": -3000.00}
+    ]},
+    {"leverancier": "Kampschreur", "type": "factuur", "referentie": "20251096", "datum": "2025-11-04", "bron": "04 Kampschreur/20251096.pdf (PO 2500221, MW podium + herstel vloer)", "regels": [
+      {"code": "314", "omschrijving": "Podium stofferen: linoleum Decibel podium + strip", "aantal": 1, "eenheid": "maal", "prijs": 1101.85},
+      {"code": "314", "omschrijving": "Herstel beschadigingen derden: slopen bestaande vloerbedekking", "aantal": 72.40, "eenheid": "m2", "prijs": 8.75},
+      {"code": "314", "omschrijving": "Schuren ondervloer", "aantal": 72.40, "eenheid": "m2", "prijs": 1.50},
+      {"code": "314", "omschrijving": "Repareren vloer na slopen", "aantal": 72.40, "eenheid": "m2", "prijs": 11.25},
+      {"code": "314", "omschrijving": "Linoleum Decibel banen plaatsen", "aantal": 72.40, "eenheid": "m2", "prijs": 61.85}
+    ]},
+    {"leverancier": "Techno Telematica", "type": "opdracht", "referentie": "2500214", "datum": "2025-06-16", "bron": "07 Techno Telematica/Opdracht 2500214 (offerte O25094-001W1, posten 1.7 + 1.8)", "regels": [
+      {"code": "250", "omschrijving": "Data netwerk U/FTP Cat6a: 64 aansluitingen (36 wp, 3 printers, 20 vergaderruimtes, 5 wifi), 3 patchpanelen, meting 53 aansluitingen + meetrapport (post 1.7)", "aantal": 1, "eenheid": "post", "prijs": 13995.00},
+      {"code": "250", "omschrijving": "Netwerk additionele voorzieningen: inbouwvoorzieningen nieuwe wanden + buisleiding halogeenvrij (post 1.8)", "aantal": 1, "eenheid": "post", "prijs": 5900.00}
+    ]},
+    {"leverancier": "Techno Telematica", "type": "opdracht", "referentie": "2500323", "datum": "2025-09-15", "bron": "07 Techno Telematica/Opdracht 2500323 (o.a. offerte O25094-MW002)", "regels": [
+      {"code": "430", "omschrijving": "Legborden (post 1.1)", "aantal": 1, "eenheid": "post", "prijs": 610.00},
+      {"code": "430", "omschrijving": "AV-installatie deel 1 (post 1.1)", "aantal": 1, "eenheid": "post", "prijs": 10000.00},
+      {"code": "430", "omschrijving": "AV-installatie deel 2 (post 1.1)", "aantal": 1, "eenheid": "post", "prijs": 2415.00}
+    ]},
+    {"leverancier": "Techno Telematica", "type": "opdracht", "referentie": "2500359", "datum": "2025-10-02", "bron": "07 Techno Telematica/Opdracht 2500359 (offerte O25094-MW003)", "regels": [
+      {"code": "430", "omschrijving": "Boardroom AV: Samsung QB65C + wandsteun + Poly X52 TC10 MTR-bundel, montage, configuratie en oplevering", "aantal": 1, "eenheid": "post", "prijs": 7080.00}
+    ]},
+    {"leverancier": "Techno Telematica", "type": "opdracht", "referentie": "2500428", "datum": "2025-11-24", "bron": "07 Techno Telematica/Opdracht 2500428 (offerte O25094-MW004)", "regels": [
+      {"code": "430", "omschrijving": "Ruimte 12.08: Samsung QE98C 98\" + wandsteun + Poly X72 TC10 MTR-bundel, incl. verhuizen bestaande 65\"-setup naar 12.06", "aantal": 1, "eenheid": "post", "prijs": 15405.00}
+    ]},
+    {"leverancier": "BVDV", "type": "opdracht", "referentie": "2500227", "datum": "2025-07-02", "bron": "08 Bureau VanDerVorm/Opdracht 2500227 + offerte 202500218C (regeldetail)", "regels": [
+      {"code": "410", "omschrijving": "The Green Lab RE_Desk Duo zit-sta 160x80, TGL oak/wit, elektrisch verstelbaar (werkplekken)", "aantal": 16, "eenheid": "st", "prijs": 1448.42},
+      {"code": "410", "omschrijving": "The Green Lab RE_Desk H-Frame 160x160, elektrisch verstelbaar", "aantal": 1, "eenheid": "st", "prijs": 1607.17},
+      {"code": "410", "omschrijving": "Easy Connect GST18 kabelmanagement (powerblock 4x230V + wegwerken bekabeling)", "aantal": 33, "eenheid": "st", "prijs": 82.50},
+      {"code": "410", "omschrijving": "Ray table flex 240x80 wit/lava (meeting 6 p.)", "aantal": 2, "eenheid": "st", "prijs": 2395.69},
+      {"code": "410", "omschrijving": "Inbouwunit 2x230V + USB-A/USB-C, incl. frezen en inbouwen (meeting 6 p.)", "aantal": 2, "eenheid": "st", "prijs": 336.27},
+      {"code": "410", "omschrijving": "Ray table flex 320x80 wit/lava (boardroom 8 p.)", "aantal": 1, "eenheid": "st", "prijs": 3182.90},
+      {"code": "410", "omschrijving": "Inbouwunit 2x230V + USB-A/USB-C, incl. frezen en inbouwen (boardroom)", "aantal": 2, "eenheid": "st", "prijs": 336.27},
+      {"code": "410", "omschrijving": "Mobile Folding Table Timmy TT 140x70 wit/zwart (meeting 14 p.)", "aantal": 7, "eenheid": "st", "prijs": 596.71},
+      {"code": "410", "omschrijving": "Inbouwunit ø80 mm 1x230V + USB-A/USB-C (meeting 14 p.)", "aantal": 2, "eenheid": "st", "prijs": 143.90},
+      {"code": "410", "omschrijving": "Mobile Folding Table Timmy TT 200x80 wit/zwart (lunchzone)", "aantal": 3, "eenheid": "st", "prijs": 674.79},
+      {"code": "410", "omschrijving": "Levering en installatie (transport, opslag, inhuizen, montage, afvoer verpakking)", "aantal": 1, "eenheid": "post", "prijs": 3464.96}
+    ]},
+    {"leverancier": "BVDV", "type": "opdracht", "referentie": "2500277", "datum": "2025-08-12", "bron": "08 Bureau VanDerVorm/Opdracht 2500277 (offerte 202500254 Phonebooths)", "regels": [
+      {"code": "420", "omschrijving": "Phonebooths Framery One Compact Essentials (2 st.)", "aantal": 1, "eenheid": "post", "prijs": 17513.38},
+      {"code": "420", "omschrijving": "Delivery and mounting of 2 booths", "aantal": 1, "eenheid": "post", "prijs": 1255.38}
+    ]},
+    {"leverancier": "BVDV", "type": "opdracht", "referentie": "2500282", "datum": "2025-08-13", "bron": "08 Bureau VanDerVorm/Opdracht 2500282 (offerte 202500134)", "regels": [
+      {"code": "410", "omschrijving": "Additioneel meubilair home office: zit-sta bureau voor thuis", "aantal": 1, "eenheid": "st", "prijs": 713.55}
+    ]},
+    {"leverancier": "BVDV", "type": "opdracht", "referentie": "2500322", "datum": "2025-09-15", "bron": "08 Bureau VanDerVorm/Opdracht 2500322 (orderbevestiging 202500186)", "regels": [
+      {"code": "410", "omschrijving": "Huurmeubilair: plaatsen en ophalen verstelbaar bureau", "aantal": 1, "eenheid": "st", "prijs": 325.00}
+    ]},
+    {"leverancier": "BVDV", "type": "opdracht", "referentie": "2500361", "datum": "2025-10-06", "bron": "08 Bureau VanDerVorm/Opdracht 2500361", "regels": [
+      {"code": "410", "omschrijving": "Levering en montage vergadertafel + installatie elektra in blad", "aantal": 1, "eenheid": "st", "prijs": 1379.99}
+    ]},
+    {"leverancier": "BVDV", "type": "opdracht", "referentie": "2600011", "datum": "2026-01-20", "bron": "08 Bureau VanDerVorm/Opdracht 2600011 (offerte 202500301B Kast Kioti)", "regels": [
+      {"code": "410", "omschrijving": "Bisley Essentials ladeblok, 3 lades H304 mm (H1000 x B800 x D470)", "aantal": 1, "eenheid": "st", "prijs": 717.36},
+      {"code": "410", "omschrijving": "Levering en montage", "aantal": 1, "eenheid": "post", "prijs": 175.00}
+    ]},
+    {"leverancier": "BVDV", "type": "offerte", "referentie": "202500273", "datum": "2025-08-08", "bron": "08 Bureau VanDerVorm/CEO_Office_202500273_080825-144231.pdf", "regels": [
+      {"code": "410", "omschrijving": "HT zit-sta return unit/kast links 160x80, elektrisch verstelbaar, incl. kabelgoot (CEO office)", "aantal": 1, "eenheid": "st", "prijs": 2067.51},
+      {"code": "410", "omschrijving": "Easy Connect GST18 kabelmanagement", "aantal": 1, "eenheid": "st", "prijs": 82.50},
+      {"code": "410", "omschrijving": "Levering en installatie", "aantal": 1, "eenheid": "post", "prijs": 75.00}
+    ]},
+    {"leverancier": "4all Solutions", "type": "opdracht", "referentie": "2500360", "datum": "2025-10-03", "bron": "09 4all solutions/Opdracht 2500360 (offerte cable management 08-09-2025)", "regels": [
+      {"code": "250", "omschrijving": "40x Cat6 U/UTP patchkabels werkplekken + spiraalband/klittenband, aansluiten en bundelen bureaublokken", "aantal": 1, "eenheid": "post", "prijs": 1600.00}
+    ]},
+    {"leverancier": "Hoogwerf", "type": "opdracht", "referentie": "2500467", "datum": "2025-12-17", "bron": "10 Hoogwerf Aannemersbedrijf B.V/Opdracht 2500467", "regels": [
+      {"code": "131", "omschrijving": "Het nalopen van diverse beschadigingen", "aantal": 1, "eenheid": "post", "prijs": 614.81}
+    ]},
+    {"leverancier": "McArt", "type": "opdracht", "referentie": "2600083", "datum": "2026-03-17", "bron": "McArt/Opdracht 2600083 (offerte 45268, regeldetail)", "regels": [
+      {"code": "450", "omschrijving": "Entreedeuren en zijlichten: baan zandstraalfolie met uitgesneden logo (beide deuren)", "aantal": 1, "eenheid": "post", "prijs": 330.00},
+      {"code": "450", "omschrijving": "Wit logo op glazen schuifdeur (snijfolie, 600x398 mm)", "aantal": 1, "eenheid": "post", "prijs": 137.50},
+      {"code": "450", "omschrijving": "Zandstraalfolie met witte logo's ruimtes 12.11 / 12.12 / 12.14 / 12.15", "aantal": 1, "eenheid": "post", "prijs": 1422.50},
+      {"code": "450", "omschrijving": "Belcellen: baan zandstraalfolie met uitgesneden logo (2 st.)", "aantal": 1, "eenheid": "post", "prijs": 168.50},
+      {"code": "450", "omschrijving": "Naamsaanduiding sticker (7 st.: A.I. Farming t/m CEO Office)", "aantal": 1, "eenheid": "post", "prijs": 387.50},
+      {"code": "450", "omschrijving": "Naamsaanduiding acrylaat paneel 5 mm (7 st.)", "aantal": 1, "eenheid": "post", "prijs": 515.49},
+      {"code": "450", "omschrijving": "Inmeten, productietekeningen, logistieke kosten", "aantal": 1, "eenheid": "post", "prijs": 338.00}
+    ]}
+  ]
+}
