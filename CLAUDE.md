@@ -4,6 +4,11 @@
 Dit project is de **volledige digitale brein-assistent** van Sjoerd Bezemer (C&W PDS Netherlands).
 Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten, business development en dagelijkse planning.
 
+## Werkwijze: vault-first
+- Werk **standaard direct in de SJBrain-vault** (Obsidian, via MCP). Deze repo dient alleen als configuratie-anker voor de sessie.
+- Maak of wijzig **geen bestanden in deze repo** tenzij Sjoerd daar expliciet om vraagt (bijv. aanpassingen aan deze CLAUDE.md).
+- Notities, dagboek, projecten, planning en documenten horen in de vault of in de gekoppelde systemen (Outlook, OneDrive, Google), niet in de repo.
+
 ## Gebruiker
 - **Naam:** Sjoerd Bezemer
 - **Functie:** Associate, Business Development – Senior Project Manager
@@ -13,15 +18,17 @@ Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten,
 - **Taal:** Nederlands (antwoord altijd in het Nederlands tenzij anders gevraagd)
 
 ## Beschikbare systemen
-| Systeem | MCP / tool | Gebruik |
+De MCP-serverprefix wisselt per sessie (soms een naam zoals `SJBrain_MPC`, soms een GUID zoals `ba024fb2-…`). Zoek daarom op de **toolnaam** (het deel na de laatste `__`), niet op de prefix.
+
+| Systeem | Toolnamen | Gebruik |
 |---|---|---|
-| Obsidian vault (SJBrain) | `mcp__ba024fb2__vault_*` | Notities, dagboek, projecten, recepten, wijn, training |
-| Outlook agenda | `mcp__969bfc01__outlook_calendar_search` | Werk-afspraken |
-| Outlook mail | `mcp__969bfc01__outlook_email_search` | Werk-e-mails |
-| Google agenda | `mcp__b8c8676b__list_events` | Privé-afspraken |
-| OneDrive / SharePoint | `mcp__969bfc01__sharepoint_*` | C&W templates, projectbestanden |
-| Google Drive | `mcp__958235f6__*` | Bestanden |
-| Gmail | `mcp__e5548b38__*` | Privé-mail |
+| Obsidian vault (SJBrain) | `vault_*` (search, read, update, append, write, list, folders, move, delete) | Notities, dagboek, projecten, recepten, wijn, training |
+| Outlook agenda | `outlook_calendar_search` | Werk-afspraken |
+| Outlook mail | `outlook_email_search` | Werk-e-mails |
+| Google agenda | `list_events`, `create_event`, `update_event` | Privé-afspraken |
+| OneDrive / SharePoint | `sharepoint_search`, `sharepoint_folder_search` | C&W templates, projectbestanden |
+| Google Drive | `search_files`, `read_file_content`, `create_file` | Bestanden |
+| Gmail | `search_threads`, `get_thread`, `create_draft` | Privé-mail |
 
 ## Vault-regels (voorkom timeouts)
 - Roep vault-tools **stap voor stap** aan — nooit meerdere vault-calls tegelijk.
