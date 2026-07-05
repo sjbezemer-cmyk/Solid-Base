@@ -175,6 +175,32 @@ def build(slug, out=None):
         ws.cell(row=r, column=13).value = f"=K{r}*L{r}"
         ws.cell(row=r, column=15).value = note
 
+    # zichtbaarheid: het template werkt met ingeklapte outline-groepen.
+    # Gevulde rijen, sectiekoppen en somrijen tonen; lege itemrijen in
+    # gevulde secties verbergen; ongebruikte secties onaangeroerd laten.
+    filled = {r for c in cursor for r in range(secs[c]["lo"], cursor[c])}
+
+    def set_hidden(r, hidden):
+        rd = ws.row_dimensions[r]
+        rd.hidden = hidden
+
+    for code, cur in cursor.items():
+        if cur == secs[code]["lo"]:
+            continue                       # sectie zonder inhoud
+        sec = secs[code]
+        for r in range(sec["lo"], sec["hi"] + 1):
+            set_hidden(r, r not in filled)
+        set_hidden(sec["sum"], False)
+        # sectiekop(pen) boven de eerste itemrij zichtbaar maken
+        r = sec["lo"] - 1
+        while r > 13:
+            a, b = ws.cell(row=r, column=1).value, ws.cell(row=r, column=2).value
+            if a is not None or (b is not None and ws.cell(row=r, column=3).value):
+                set_hidden(r, False)
+                if a is not None:          # hoofdkop (bijv. 320) bereikt
+                    break
+            r -= 1
+
     # projectgegevens + leveranciers in controle-tab
     bp = wb["2 | Basic principles"]
     bp["C7"] = data["project"]
