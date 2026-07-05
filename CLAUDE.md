@@ -29,6 +29,13 @@ Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten,
 - Gebruik `vault_write` alleen voor nieuwe bestanden of volledige herschrijving.
 - Roep `vault_folders` aan vóór folder-scoped tools als de folder-naam onbekend is.
 
+## Projectcalculaties (offertes → Excel)
+- Workflow en tooling: zie `calculatie/README.md`; het proces zelf zit in de skill `/offerte`.
+- Leeg C&W-template: `calculatie/template/Master_calculatie_LEEG.xlsx`. Per project een map onder `calculatie/projecten/<slug>/` met `calculatie.xlsx` + `register.json`.
+- PDF-offertes/opdrachten **altijd** verwerken via `python3 calculatie/tools/calc_tool.py add <slug> --json ...` — nooit de Excel handmatig bewerken (register = audittrail + dedupe).
+- Bedragen netto excl. btw rapporteren (kolom M); kolom G bevat de verborgen opslag (±14,4%).
+- Na elke verwerking: commit + push.
+
 ## C&W PDS huisstijl (voor documenten)
 - **CW_RED:** #C3002B
 - **CW_DARK:** #1C1C1C

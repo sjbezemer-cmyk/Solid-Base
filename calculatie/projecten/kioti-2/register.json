@@ -1,0 +1,237 @@
+{
+  "project": "Kioti Rotterdam WTC",
+  "slug": "kioti-2",
+  "onedrive": "SJB/Kioti 2/2.3 Aanbesteding & opdrachten/Opdrachten",
+  "offertes": [
+    {
+      "leverancier": "SPIE",
+      "referentie": "2500211",
+      "type": "opdracht",
+      "bron": "01 SPIE/25002 Kioti Build Opdracht Spie 001 - 2500211.pdf",
+      "datum": "2025-06-16",
+      "bedrag": 45541.34,
+      "regels": 3,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "SPIE",
+      "referentie": "2500429",
+      "type": "opdracht",
+      "bron": "01 SPIE/25002 Kioti Build Opdracht Spie 002 -2500429.pdf",
+      "datum": "2025-11-20",
+      "bedrag": 6727.19,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "SPIE",
+      "referentie": "2600008",
+      "type": "opdracht",
+      "bron": "01 SPIE/25002 Kioti Build Opdracht Spie 003 -2600008 getekend.pdf",
+      "datum": "2026-01-09",
+      "bedrag": 1226.21,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "4Some",
+      "referentie": "2500210",
+      "type": "opdracht",
+      "bron": "02 4SUM/25002 Kioti Build Opdracht 4Some 001 - 2500210.pdf",
+      "datum": "2025-06-16",
+      "bedrag": 66615.0,
+      "regels": 5,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "4Some",
+      "referentie": "2600012",
+      "type": "opdracht",
+      "bron": "02 4SUM/25002 Kioti Build Opdracht 4Some 002 - 2600012 getekend.PDF",
+      "datum": "2026-01-13",
+      "bedrag": 2270.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Technoproject",
+      "referentie": "2500212",
+      "type": "opdracht",
+      "bron": "03 Techno Project/25002 Kioti Build Opdracht Technoproject 001 - 2500212.pdf",
+      "datum": "2025-06-16",
+      "bedrag": 79500.0,
+      "regels": 4,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Technoproject",
+      "referentie": "2500430",
+      "type": "opdracht",
+      "bron": "03 Techno Project/25002 Kioti Build Opdracht Technoproject 002 - 2500430.pdf",
+      "datum": "2025-11-20",
+      "bedrag": 290.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Technoproject",
+      "referentie": "1250355",
+      "type": "offerte",
+      "bron": "03 Techno Project/003 Meerwerk A - Kioti WTC Rotterdam - 07-10-25.pdf",
+      "datum": "2025-10-06",
+      "bedrag": 18347.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Kampschreur",
+      "referentie": "20251096",
+      "type": "factuur",
+      "bron": "04 Kampschreur/20251096.pdf",
+      "datum": "2025-11-04",
+      "bedrag": 7136.39,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Techno Telematica",
+      "referentie": "2500214",
+      "type": "opdracht",
+      "bron": "07 Techno Telematica/25002 Kioti Build Opdracht Techno Telematica 001 - 2500214.pdf",
+      "datum": "2025-06-16",
+      "bedrag": 19895.0,
+      "regels": 2,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Techno Telematica",
+      "referentie": "2500323",
+      "type": "opdracht",
+      "bron": "07 Techno Telematica/25002 Kioti Build Opdracht Techno Telematica 002 - 2500323.pdf",
+      "datum": "2025-09-15",
+      "bedrag": 13025.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Techno Telematica",
+      "referentie": "2500359",
+      "type": "opdracht",
+      "bron": "07 Techno Telematica/25002 Kioti Build Opdracht Techno Telematica 003 - 2500359.pdf",
+      "datum": "2025-10-02",
+      "bedrag": 7080.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Techno Telematica",
+      "referentie": "2500428",
+      "type": "opdracht",
+      "bron": "07 Techno Telematica/25002 Kioti Build Opdracht Techno Telematica 004 - 2500428.pdf",
+      "datum": "2025-11-24",
+      "bedrag": 15405.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "2500227",
+      "type": "opdracht",
+      "bron": "08 Bureau VanDerVorm/25002 Kioti Opdracht BVDV 001 - 2500227.pdf",
+      "datum": "2025-07-02",
+      "bedrag": 46777.85,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "2500277",
+      "type": "opdracht",
+      "bron": "08 Bureau VanDerVorm/25002 Kioti Opdracht BVDV 002 - 2500277.PDF",
+      "datum": "2025-08-12",
+      "bedrag": 18768.76,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "2500282",
+      "type": "opdracht",
+      "bron": "08 Bureau VanDerVorm/25002 Kioti Opdracht BVDV 003 - 2500282.pdf",
+      "datum": "2025-08-13",
+      "bedrag": 713.55,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "2500322",
+      "type": "opdracht",
+      "bron": "08 Bureau VanDerVorm/25002 Kioti Opdracht BVDV 004 - 2500322.pdf",
+      "datum": "2025-09-15",
+      "bedrag": 325.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "2500361",
+      "type": "opdracht",
+      "bron": "08 Bureau VanDerVorm/25002 Kioti Opdracht BVDV 005 - 2500361.pdf",
+      "datum": "2025-10-06",
+      "bedrag": 1379.99,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "2600011",
+      "type": "opdracht",
+      "bron": "08 Bureau VanDerVorm/25002 Kioti Opdracht BVDV 006 - 2600011.PDF",
+      "datum": "2026-01-20",
+      "bedrag": 892.36,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "BVDV",
+      "referentie": "202500273",
+      "type": "offerte",
+      "bron": "08 Bureau VanDerVorm/CEO_Office_202500273_080825-144231.pdf",
+      "datum": "2025-08-08",
+      "bedrag": 2225.01,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "4all Solutions",
+      "referentie": "2500360",
+      "type": "opdracht",
+      "bron": "09 4all solutions/25002 Kioti Build Opdracht 4allsolutions 001 - 2500360.pdf",
+      "datum": "2025-10-03",
+      "bedrag": 1600.0,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "Hoogwerf",
+      "referentie": "2500467",
+      "type": "opdracht",
+      "bron": "10 Hoogwerf Aannemersbedrijf B.V/25002 Kioti - Build I Opdracht Hoogwerf 001 -   2500467.pdf",
+      "datum": "2025-12-17",
+      "bedrag": 614.81,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    },
+    {
+      "leverancier": "McArt",
+      "referentie": "2600083",
+      "type": "opdracht",
+      "bron": "McArt/25002 - Kioti - Build I Opdracht McArt 001 - 2600083.pdf",
+      "datum": "2026-03-17",
+      "bedrag": 3299.49,
+      "regels": 1,
+      "toegevoegd": "2026-07-05T00:00:00"
+    }
+  ]
+}
