@@ -22,6 +22,23 @@ Alles komt hier samen: Obsidian vault, Outlook agenda/mail, OneDrive documenten,
 | OneDrive / SharePoint | `mcp__969bfc01__sharepoint_*` | C&W templates, projectbestanden |
 | Google Drive | `mcp__958235f6__*` | Bestanden |
 | Gmail | `mcp__e5548b38__*` | Privé-mail |
+| MarkItDown | `markitdown-mcp` | Documenten (PDF, Word, PowerPoint, Excel) omzetten naar Markdown vóór opslag in de vault |
+
+## MarkItDown MCP-server
+[MarkItDown](https://github.com/microsoft/markitdown) zet Office-documenten, PDF's en andere bestandsformaten om naar Markdown, zodat OneDrive/SharePoint-bijlagen direct bruikbaar zijn in de Obsidian vault.
+
+- **Installatie:** `pip install markitdown-mcp` (wordt automatisch uitgevoerd door de `SessionStart`-hook in `.claude/hooks/session-start.sh`).
+- **Starten:** `markitdown-mcp` (stdio) of `markitdown-mcp --http --host 127.0.0.1 --port 3001` (SSE/HTTP).
+- **MCP-configuratie (voorbeeld):**
+  ```json
+  {
+    "mcpServers": {
+      "markitdown": {
+        "command": "markitdown-mcp"
+      }
+    }
+  }
+  ```
 
 ## Vault-regels (voorkom timeouts)
 - Roep vault-tools **stap voor stap** aan — nooit meerdere vault-calls tegelijk.
