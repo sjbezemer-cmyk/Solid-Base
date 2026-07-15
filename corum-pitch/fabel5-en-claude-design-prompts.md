@@ -17,8 +17,16 @@ Werkwijze:
 > voor het **project management van de "Paris Proof"-verduurzaming van Westgate I** in Amsterdam.
 >
 > **De één-zin-kernboodschap die door álles heen moet lopen:** *Maak C&W je single point of control
-> in Nederland — wij managen PwC namens Corum én organiseren de volledige verduurzaming, zodat
-> Corum beslist en C&W levert.* ("CORUM DECIDES · C&W DELIVERS")
+> in Nederland — wij **leveren** de volledige Paris Proof-verduurzaming én houden **huurder PwC volledig
+> op de hoogte en aligned**, zodat Corum beslist en C&W levert.* ("CORUM DECIDES · C&W DELIVERS")
+>
+> **Belangrijk — spiegel Corums eigen woorden uit de samenvattingsmail (letterlijk gebruiken):**
+> "ensuring Corum is well-advised at every stage and that **PwC experiences full confidence that the
+> project is under control**"; "**actively involving PwC in the decision-making process**"; "**continuous
+> insight into progress and planning**"; "**timely communication of changes that impact business
+> operations**"; "clear escalation lines"; "the full project team is personally introduced to all parties
+> from the outset". Toon: PwC is een partner die we aligned houden — níet een probleem waar we Corum
+> van "afschermen".
 >
 > **Harde feiten (moeten kloppen):**
 > - Gebouw: Westgate I, Thomas R. Malthusstraat 5, 1066 JR Amsterdam, ± 27.000 m², volledig verhuurd

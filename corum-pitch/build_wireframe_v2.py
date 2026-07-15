@@ -114,7 +114,7 @@ bar.line.fill.background(); bar.shadow.inherit = False
 txt(s, Inches(0.6), Inches(4.8), Inches(11), Inches(1.1),
     "WESTGATE I — PARIS PROOF", size=40, color=CW_DARK, bold=True)
 txt(s, Inches(0.6), Inches(5.7), Inches(11.5), Inches(0.6),
-    "Your single point of control for the sustainable transformation of a live, PwC-occupied asset",
+    "Your single point of control — delivering Paris Proof with tenant PwC fully aware and aligned",
     size=15, color=CW_RED, bold=True)
 txt(s, Inches(0.6), Inches(6.5), Inches(9), Inches(0.5),
     "Project Management Proposal  ·  Prepared for Corum A.M.  ·  July 2026",
@@ -126,7 +126,7 @@ txt(s, Inches(11.0), Inches(5.85), Inches(1.8), Inches(0.4), "[C&W LOGO]",
 # ============================================== 2 EXECUTIVE SUMMARY (SCQA)
 s = slide()
 header(s, "Executive summary — the proposal on one page",
-       "Appoint C&W as your single point of control: we manage PwC and\norganize Paris Proof, so you decide and we deliver", 2)
+       "Appoint C&W as your single point of control: we deliver Paris Proof\nwith PwC fully aware and aligned — you decide, we deliver", 2)
 scqa = [
     ("SITUATION",
      "Corum owns Westgate I — a prime 27,000 m² Amsterdam office, fully let to PwC — and has "
@@ -140,9 +140,9 @@ scqa = [
      "How does Corum deliver Paris Proof and protect both the PwC tenancy and the asset's value, "
      "without being pulled into day-to-day tenant and project management in the Netherlands?", CW_RED),
     ("ANSWER",
-     "Appoint Cushman & Wakefield as your single point of control. We manage PwC on your behalf "
-     "and orchestrate the entire sustainability transformation end-to-end — from a low-commitment "
-     "preparatory phase to Paris Proof handover. One contact, one report, no surprises.", CW_RED),
+     "Appoint Cushman & Wakefield as your single point of control. We deliver the Paris Proof "
+     "transformation end-to-end and keep PwC fully aware and aligned throughout — from a "
+     "low-commitment preparatory phase to verified handover. One contact, one report, no surprises.", CW_RED),
 ]
 y = Inches(1.75)
 for i, (k, d, c) in enumerate(scqa):
@@ -250,9 +250,9 @@ txt(s, Inches(0.7), Inches(2.0), Inches(12), Inches(2.6),
     "Make Cushman & Wakefield your single\npoint of control in the Netherlands.",
     size=34, color=WHITE, bold=True)
 txt(s, Inches(0.7), Inches(4.3), Inches(11.8), Inches(1.5),
-    "We manage PwC on your behalf, and we organize the entire Paris Proof "
-    "transformation end-to-end. You steer the asset; we run the building, the tenant "
-    "and the works — and we bring you every decision, prepared, before it is needed.",
+    "We deliver the entire Paris Proof transformation end-to-end and keep PwC "
+    "fully aware and aligned at every step. You steer the asset; we run the works and "
+    "the tenant relationship — and we bring you every decision, prepared, before it is needed.",
     size=15, color=WHITE)
 b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.7), Inches(6.2),
                        Inches(4.4), Inches(0.5))
@@ -265,12 +265,12 @@ s = slide()
 header(s, "01 — The case for action  ·  Our answer",
        "In practice, we take three things entirely off your plate", 7)
 cols = [
-    ("WE MANAGE PwC\nFOR YOU", CW_RED,
-     ["Single point of contact for the tenant",
-      "Manage expectations & communication",
-      "Minimise disruption to PwC operations",
-      "Protect the lease and the relationship",
-      "Shield Corum from day-to-day tenant issues"]),
+    ("PwC FULLY AWARE\n& ALIGNED", CW_RED,
+     ["One familiar point of contact for PwC",
+      "PwC actively involved in decisions that affect them",
+      "Continuous insight into progress & planning",
+      "Timely notice of anything impacting operations",
+      "PwC feels the project is fully under control"]),
     ("WE ORGANIZE THE\nSUSTAINABILITY WORKS", CW_DARK,
      ["Translate M3E's design into deliverable scope",
       "Run the tender & select the contractor",
@@ -293,7 +293,7 @@ for i, (t, c, pts) in enumerate(cols):
     body = "\n".join("•  " + p for p in pts)
     txt(s, x + Inches(0.2), Inches(3.05), Inches(3.6), Inches(3.1), body, size=11, space=8)
 txt(s, Inches(0.45), Inches(6.45), Inches(11.5), Inches(0.4),
-    "Corum keeps the decisions that matter. Everything else — the tenant, the contractor, the site, the paperwork — sits with us.",
+    "Corum keeps the decisions that matter. We deliver the works and keep PwC fully aware and aligned — so nothing ever lands on Corum by surprise.",
     size=11, bold=True, italic=True)
 
 # ================================================ 8 UNDERSTANDING / STAKEHOLDERS
@@ -370,25 +370,25 @@ txt(s, Inches(0.6), Inches(6.05), Inches(12.1), Inches(0.7),
 # ================================================ 10 MANAGE PwC (DEEP DIVE)
 s = slide()
 header(s, "02 — What we take off your plate  ·  Deep dive 1 of 2",
-       "We manage PwC for you — so your tenant stays confident\nand your lease stays intact", 10)
+       "We deliver the works with PwC fully aware and aligned —\nso your tenant stays confident and your lease stays intact", 10)
 txt(s, Inches(0.45), Inches(1.85), Inches(12.3), Inches(0.8),
-    "From day one, PwC deals with one familiar C&W face, not with Corum and not with a rotating cast of contractors. "
-    "We absorb the friction of a live rebuild so that the tenant experiences a landlord who is organised, transparent "
-    "and in control. This is how a construction programme protects — rather than erodes — the value of the tenancy.",
+    "From day one, PwC deals with one familiar C&W face. We keep the tenant actively involved in the decisions "
+    "that affect them, with continuous insight into progress and planning and timely notice of anything that "
+    "touches their operations. The outcome, in Corum's own words: PwC experiences full confidence that the project is under control.",
     size=11.5)
 blocks = [
-    ("SINGLE TENANT INTERFACE",
-     "One dedicated Stakeholder Management PM owns the PwC relationship end-to-end: the single, "
-     "consistent point of contact for everything that touches the tenant."),
-    ("EXPECTATION MANAGEMENT",
-     "A tenant communication plan agreed up front: what happens, when, on which floor, and how we "
-     "keep noise, dust and disruption inside agreed windows."),
-    ("DECISIONS PREPARED WITH PwC",
-     "PwC is actively involved in decisions that affect them — briefed early, never surprised — so "
-     "impact on their operations is designed out before it occurs."),
-    ("PROTECTING THE ASSET VALUE",
-     "A satisfied tenant renews. By managing PwC professionally through the works, we protect lease "
-     "retention and, with it, the income and exit value of the asset for Corum."),
+    ("ONE FAMILIAR INTERFACE",
+     "The Stakeholder Management PM owns the PwC relationship end-to-end — one consistent, familiar "
+     "point of contact for everything that touches the tenant."),
+    ("ACTIVELY INVOLVED IN DECISIONS",
+     "PwC is actively involved in the decision-making process on matters that affect them — briefed "
+     "early, aligned before we act, never presented with a fait accompli."),
+    ("CONTINUOUS INSIGHT & TIMELY NOTICE",
+     "Continuous insight into progress and planning, and timely communication of any change that impacts "
+     "business operations — noise, access and disruption kept inside agreed windows."),
+    ("FULL CONFIDENCE, PROTECTED VALUE",
+     "The outcome Corum asked for: PwC experiences full confidence that the project is under control. A "
+     "confident tenant renews — protecting lease retention, income and exit value."),
 ]
 for i, (t, d) in enumerate(blocks):
     x = Inches(0.45) + (i % 2) * Inches(6.35)

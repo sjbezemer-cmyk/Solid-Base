@@ -18,12 +18,12 @@
 4. *Kwantificering:* m², vast budget, Paris Proof-deadline, fasering in de taal van waarde.
 5. *Differentiatie:* waarom C&W en geen lokaal PM-bureau.
 
-**Ronde 2 — verdieping**
-1. *PwC als held/risico:* aparte deep-dive "We manage PwC for you".
-2. *De beslissing nu:* laatste slide maakt de gevraagde beslissing concreet.
-3. *Governance:* decision-rights/RACI-matrix die een fondsbestuur herkent.
-4. *Risico = asset-value:* elk risico gekoppeld aan huurder/budget/deadline.
-5. *Emotionele close:* "Picture Westgate I in 2030".
+**Ronde 2 — verdieping (herzien: "deliver the works, PwC fully aware & aligned")**
+1. *Huurder = partner, geen probleem:* toon van "shield Corum from PwC" → "keep PwC fully aware and aligned"; deep-dive heet nu "We deliver the works with PwC fully aware and aligned".
+2. *Corums eigen woorden spiegelen:* letterlijke taal uit de samenvattingsmail — "PwC experiences full confidence that the project is under control", "actively involving PwC in the decision-making process", "continuous insight into progress and planning", "timely communication of changes that impact business operations".
+3. *"Deliver" als werkwoord van accountability:* C&W levert de werken end-to-end; leveren + alignment als dubbele belofte (golden thread blijft CORUM DECIDES · C&W DELIVERS).
+4. *Governance-doelen letterlijk op de pagina* + decision-rights/RACI-matrix; risico gekoppeld aan huurder/budget/deadline.
+5. *Slotvraag = de twee openstaande vragen uit de mail:* Corum–PwC-overeenkomst en Corum–M3E-afspraak, NDA-first; en "Picture Westgate I in 2030".
 
 **Ronde 3 — MBB-craft**
 1. *Executive summary staat op zichzelf* (antwoord eerst).
@@ -47,7 +47,7 @@
 | 7 | Our answer | Drie dingen die we volledig van je plate halen |
 | 8 | Playing field | Jij in het centrum van 4 partijen — wij worden de hub |
 | 9 | Two routes | M3E-scenario's → wij maken de keuze decision-ready |
-| 10 | **Deep dive 1** | **We manage PwC for you** (huurder blijft vertrouwen houden) |
+| 10 | **Deep dive 1** | **We deliver the works with PwC fully aware and aligned** |
 | 11 | **Deep dive 2** | **We organize the works** (van M3E-ontwerp → Paris Proof) |
 | 12 | Success factors | Vier principes maken van risicovolle verbouwing een gecontroleerd programma |
 | 13 | The journey | Vandaag → Paris Proof op één tijdlijn |
