@@ -69,16 +69,19 @@
 - `Corum-Westgate-I-Pitch-Wireframe.pptx` — de wireframe (24 slides, teampagina wit)
 - `build_wireframe_v2.py` — generator van de wireframe (v2, MBB-niveau)
 - `build_wireframe.py` — v1 generator (bewaard)
-- `fabel5-en-claude-design-prompts.md` — Prompt A (Fabel 5) + Prompt B (Claude Design, alleen wireframe)
+- `prompt-1-fabel5.md` — Prompt 1: Fabel 5 (verhaal + copy → slide-voor-slide spec)
+- `prompt-2-claude-design.md` — Prompt 2: Claude Design (ALLEEN wireframe, grijs/low-fidelity)
+- `prompt-3-claude-design-styling.md` — Prompt 3: Claude Design styling-pass (CBOE look-and-feel over goedgekeurd wireframe; CBOE-PDF meesturen)
 - `claude-design-prompt.md` — v1 designprompt (bewaard)
 
 ## Proces naar verzending (intern)
 | Stap | Wie | Wanneer |
 |---|---|---|
 | 1. Wireframe review | Sjoerd | direct |
-| 2. Fabel 5 → aangescherpte copy-spec (Prompt A) | Sjoerd | dag 1 |
-| 3. Claude Design → wireframe (Prompt B) | Sjoerd | dag 1–2 |
-| 4. Review inhoud + fee | Frank Okker / Willem Pietermans | dag 2–3 |
-| 5. Team bepalen & teampagina invullen | Frank/Sjoerd | dag 3 |
-| 6. NDA tekenen; info Corum–PwC & Corum–M3E verwerken | Sjoerd | zodra ontvangen |
-| 7. Verzenden aan Dirk + Marcus, opvolgafspraak plannen | Sjoerd | wk 29 |
+| 2. Fabel 5 → aangescherpte copy-spec (Prompt 1) | Sjoerd | dag 1 |
+| 3. Claude Design → wireframe (Prompt 2) | Sjoerd | dag 1–2 |
+| 4. Claude Design → CBOE styling-pass (Prompt 3, CBOE-PDF meesturen) | Sjoerd | dag 2 |
+| 5. Review inhoud + fee | Frank Okker / Willem Pietermans | dag 2–3 |
+| 6. Team bepalen & teampagina invullen | Frank/Sjoerd | dag 3 |
+| 7. NDA tekenen; info Corum–PwC & Corum–M3E verwerken | Sjoerd | zodra ontvangen |
+| 8. Verzenden aan Dirk + Marcus, opvolgafspraak plannen | Sjoerd | wk 29 |
