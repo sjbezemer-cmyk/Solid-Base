@@ -1,114 +1,84 @@
-# Wireframe — Pitch & Voorstel Corum | Westgate I "Paris Proof"
+# Wireframe v2 — Pitch & Voorstel Corum | Westgate I "Paris Proof"
 
 **Klant:** Corum A.M. (Dirk Hooiveld, Senior Technical Manager · Marcus Dillon)
-**Project:** Sustainability Upgrade Westgate I, Thomas R. Malthusstraat 5, Amsterdam — ca. 27.000 m², huurder PwC
-**Opdracht:** Project Management namens eigenaar (preparation + execution), Paris Proof is harde contractuele afspraak
-**Taal deck:** Engels (correspondentie met Corum/Marcus Dillon is Engels)
-**Structuur-referentie:** ESA ESTEC tender (26130 - ESA RfP) — cover letter, understanding & challenges, methodology, governance, phasing, risk, team, fee
-**Technische input:** M3E notities 09-02-2026 — voorkeursscenario (LT-WKO + klimaatplafonds) & alternatief scenario (lucht-water WP + behoud VAV-inductie + VRF naregeling + nieuw DX-blok)
+**Project:** Paris Proof-verduurzaming Westgate I, Thomas R. Malthusstraat 5, Amsterdam — ± 27.000 m², huurder PwC
+**Kernboodschap (golden thread):** *Maak C&W je single point of control — wij managen PwC namens Corum
+én organiseren de verduurzaming. **CORUM DECIDES · C&W DELIVERS.***
+**Taal deck:** Engels · **Structuur:** MBB-niveau (SCQA, action titles, pyramid principle)
+**Bronnen:** mailwisseling Sjoerd↔Dirk↔M3E (jul 2026), M3E-scenario's (9 feb 2026), ESA-pitch als niveaureferentie
 
 ---
 
-## Slide 1 — Cover
-- Full-bleed foto Westgate I (placeholder)
-- Titel: **Westgate I — Paris Proof** / Project Management Proposal
-- Subtitel: Prepared for Corum A.M. · July 2026
-- C&W logo, CW_RED accentbalk
+## Verbeteringen t.o.v. v1 (3 rondes × 5 invalshoeken)
 
-## Slide 2 — Contents
-Vijf genummerde blokken (à la ESA-deck):
-01 Introduction & Understanding · 02 Our Approach · 03 Organisation & Governance · 04 Team & Track Record · 05 Fee & Next Steps
+**Ronde 1 — fundament**
+1. *Beleggersblik:* hele deck herkaderd rond de-risking van een asset op afstand.
+2. *Verhaallijn:* van feitenlijst → SCQA + chronologische journey.
+3. *Single point of accountability:* expliciete slide "wat we van je plate halen".
+4. *Kwantificering:* m², vast budget, Paris Proof-deadline, fasering in de taal van waarde.
+5. *Differentiatie:* waarom C&W en geen lokaal PM-bureau.
 
-## Slide 3 — Cover Letter / Executive Summary
-- Korte brief: dank voor gesprek 2 juli, begrip van de opgave, commitment
-- Drie blokken: UNDERSTANDING (Paris Proof = harde contractuele afspraak; huurder­tevredenheid centraal) · APPROACH (gefaseerd, duo-PM) · COMMITMENT (no surprises)
-- Contactblok Sjoerd Bezemer + Frank Okker
+**Ronde 2 — verdieping**
+1. *PwC als held/risico:* aparte deep-dive "We manage PwC for you".
+2. *De beslissing nu:* laatste slide maakt de gevraagde beslissing concreet.
+3. *Governance:* decision-rights/RACI-matrix die een fondsbestuur herkent.
+4. *Risico = asset-value:* elk risico gekoppeld aan huurder/budget/deadline.
+5. *Emotionele close:* "Picture Westgate I in 2030".
 
-## Slide 4 — Understanding the Project
-- Feitenkolom: Westgate I, Thomas R. Malthusstraat 5, 1066 JR Amsterdam · ±27.000 m² · eigenaar Corum · huurder PwC (gebouw in gebruik) · doel: Paris Proof
-- Stakeholderkaart: Corum (owner) — PwC (tenant) — M3E (technical advisor) — Contractor (via tender) — C&W (PM, owner's representative)
-- Kernboodschap: verduurzamen in een vol, operationeel gebouw
-
-## Slide 5 — Two Routes to Paris Proof (M3E scenario's)
-Twee kolommen, vergelijking:
-- **Preferred:** laagtemperatuur-WKO + klimaatplafonds; volledige vervanging gasinstallatie; energiecentrale in kelder; gefaseerd per verdieping; toekomstvast
-- **Alternative:** lucht-water warmtepomp + behoud VAV-inductie-units + VRF-naregeling + nieuw DX-blok; beperkte ingrepen; maar restlevensduur VAV 6–9 jaar → tweede ingreep later
-- Onderregel: *Our project management approach is robust for either scenario — phased, floor-by-floor, tenant-first.*
-
-## Slide 6 — The Assignment & Our Role
-- Rol: PM on behalf of the owner; representing Corum's interests
-- Verantwoordelijkheden: coordination of all parties · monitoring planning, budget, quality & risk · tender management · execution management · transparent decision-making
-- "We prepare key decisions in advance so Corum is well-advised and PwC experiences full confidence that the project is under control."
-
-## Slide 7 — Key Success Factors
-Vier tegels (à la ESA "critical challenges"):
-1. **Tenant satisfaction first** — les uit eerder project (Rotterdam): communicatie bepaalt succes
-2. **Phased delivery in a live building** — verdieping-voor-verdieping, gebouw blijft operationeel
-3. **Clear governance** — PwC actief in besluitvorming, heldere escalatielijnen
-4. **No surprises** — actief risicomanagement, transparante planning & budget
-
-## Slide 8 — Phased Approach (4 fasen)
-Horizontale fasenbalk:
-- **Phase 0 — Preparatory Assignment (beperkt):** stakeholder mapping, projectorganisatie, input M3E, eisen huurder → integraal projectplan
-- **Phase 1 — PM Preparation:** technisch ontwerp begeleiden, scope vaststellen, tenderdocumenten, aannemersselectie
-- **Phase 2 — PM Execution:** uitvoeringsbegeleiding, directievoering, gefaseerde uitvoering per verdieping
-- **Phase 3 — Building Consultancy:** kwaliteitsinspecties tijdens de bouw
-Drie afzonderlijke opdrachten na fase 0 (zoals besproken 2 juli)
-
-## Slide 9 — Process Planning (indicatief)
-Gantt-achtige balkenplanning Q3 2026 – 2028:
-- Jul 2026: NDA + proposal + gunning Phase 0
-- Aug–Okt 2026: Phase 0 preparatory → projectplan
-- Q4 2026 – Q1 2027: technisch ontwerp (M3E) + tender
-- Q2 2027: contractering aannemer
-- Q3 2027 – 2028: gefaseerde uitvoering per verdieping + inspecties
-- Oplevering + nazorg/finetuning
-Mijlpaal-diamanten in CW_RED; noot: planning te valideren met M3E-ontwerpplanning
-
-## Slide 10 — Project Organisation: the Two-PM Model
-- Organogram: Corum (client) bovenaan → C&W duo:
-  - **Stakeholder Management PM** — relatie huurder, communicatie, besluitvorming
-  - **Technical PM** — technische coördinatie, site management, afstemming M3E, tender & uitvoering
-- Daaronder: M3E (technical advisor) en Contractor (execution)
-- Boodschap: technisch én diplomatiek geborgd
-
-## Slide 11 — Governance & Communication
-- Overlegstructuur: Steering (Corum/C&W/PwC) · projectteam-overleg · bouwvergadering
-- PwC actief betrokken in besluitvorming; tijdige communicatie bij impact op bedrijfsvoering
-- Escalatielijnen; volledige projectteam persoonlijk voorgesteld bij start
-- Rapportage: voortgang, planning, budget, risico's — continu inzichtelijk
-
-## Slide 12 — Risk Management
-- Risk Register vanaf dag 1: vroeg signaleren, eigenaarschap, mitigatie
-- Voorbeeldrisico's (tabel): overlast/huurderklachten · faseringsconflicten per verdieping · WKO-vergunning & bronboringen · budgetoverschrijding tender · integratie regeltechniek · doorlooptijd besluitvorming
-- RAG-status kolom
-
-## Slide 13 — Team  ⬜ **BEWUST WIT / LEEG**
-- Witte pagina, alleen sectielabel "04 — Team" klein in de marge
-- (CV's, foto's en rolverdeling worden later ingevuld)
-
-## Slide 14 — Track Record
-- 3–4 referentiekaarten (placeholder): vergelijkbare verduurzamings-/renovatieprojecten in gebruik zijnde kantoren
-- Per kaart: foto, project, omvang, rol C&W, resultaat
-
-## Slide 15 — Fee Proposal
-- Structuur volgt fasen: Phase 0 lump sum · Phase 1 · Phase 2 · Building Consultancy (elk apart te gunnen)
-- Tarieventabel (placeholder; B+L-referentie: Sr PM €145 · PM €135 · Technical PM €135 · Cost mgr €125 · Site mgr €120)
-- Uitgangspunten & exclusies
-
-## Slide 16 — Next Steps & Contact
-- NDA (Dentons) → inzicht Corum–PwC overeenkomst en Corum–M3E afspraken → bevestiging Phase 0 → kick-off & introductie team
-- Contact: Sjoerd Bezemer (+31 6 128 485 42) · Frank Okker, Head of PDS NL
-- Slottagline + CW_RED balk
+**Ronde 3 — MBB-craft**
+1. *Executive summary staat op zichzelf* (antwoord eerst).
+2. *Golden thread* als terugkerend badge-motief op elke slide.
+3. *Track record* geframed als "we hebben dit exact gedaan".
+4. *Fee als vertrouwen:* gefaseerd, lage instap, investering vs. beschermde waarde.
+5. *Action titles + kickers + bronregels* overal.
 
 ---
+
+## Slide-overzicht (24 slides)
+
+| # | Sectie | Action title (kern) |
+|---|---|---|
+| 1 | Cover | Westgate I — Paris Proof · your single point of control |
+| 2 | Exec summary | SCQA op één pagina: appoint C&W as your single point of control |
+| 3 | Contents | Hoe dit voorstel is opgebouwd (06 secties) |
+| 4 | Situation | Prime Amsterdam-asset met bindende Paris Proof-verplichting |
+| 5 | Complication | Drie krachten bedreigen het asset — in één gebouw, in gebruik |
+| 6 | Governing answer | Maak C&W je single point of control (statement-slide, donker) |
+| 7 | Our answer | Drie dingen die we volledig van je plate halen |
+| 8 | Playing field | Jij in het centrum van 4 partijen — wij worden de hub |
+| 9 | Two routes | M3E-scenario's → wij maken de keuze decision-ready |
+| 10 | **Deep dive 1** | **We manage PwC for you** (huurder blijft vertrouwen houden) |
+| 11 | **Deep dive 2** | **We organize the works** (van M3E-ontwerp → Paris Proof) |
+| 12 | Success factors | Vier principes maken van risicovolle verbouwing een gecontroleerd programma |
+| 13 | The journey | Vandaag → Paris Proof op één tijdlijn |
+| 14 | Engagement model | Je commit in stappen: klein starten, dan opschalen |
+| 15 | Planning | Het programma op één pagina (indicatieve Gantt) |
+| 16 | Organisation | Twee-PM-model: diplomatiek én technisch gedekt |
+| 17 | Governance | Decision rights: jij de grote calls, wij de rest (RACI) |
+| 18 | Reporting | Volledig in control vanuit Parijs — één pagina per maand |
+| 19 | Risk | Risico = asset-value-bescherming (RAG-tabel) |
+| 20 | Why C&W | Waarom C&W, geen lokaal PM-bureau |
+| 21 | **Team** | **BEWUST WIT / LEEG** |
+| 22 | Track record | We hebben dit exact gedaan (4 referentiekaarten) |
+| 23 | Fee | Gefaseerde investering — laag starten, verdiend bij levering |
+| 24 | The decision | Picture Westgate I in 2030 + de beslissing die we vragen |
+
+---
+
+## Bestanden in deze map
+- `Corum-Westgate-I-Pitch-Wireframe.pptx` — de wireframe (24 slides, teampagina wit)
+- `build_wireframe_v2.py` — generator van de wireframe (v2, MBB-niveau)
+- `build_wireframe.py` — v1 generator (bewaard)
+- `fabel5-en-claude-design-prompts.md` — Prompt A (Fabel 5) + Prompt B (Claude Design, alleen wireframe)
+- `claude-design-prompt.md` — v1 designprompt (bewaard)
 
 ## Proces naar verzending (intern)
 | Stap | Wie | Wanneer |
 |---|---|---|
-| 1. Wireframe review | Sjoerd | 8 jul |
-| 2. Concept-deck via Claude Design (prompt bijgevoegd) | Sjoerd | 8–9 jul |
-| 3. Review inhoud + fee | Frank Okker / Willem Pietermans | 9–10 jul |
-| 4. Team bepalen & teampagina invullen | Frank/Sjoerd | 10 jul |
-| 5. NDA tekenen; info Corum–PwC & Corum–M3E verwerken | Sjoerd | zodra ontvangen |
-| 6. Verzenden aan Dirk + Marcus, opvolgafspraak plannen | Sjoerd | wk 29 |
+| 1. Wireframe review | Sjoerd | direct |
+| 2. Fabel 5 → aangescherpte copy-spec (Prompt A) | Sjoerd | dag 1 |
+| 3. Claude Design → wireframe (Prompt B) | Sjoerd | dag 1–2 |
+| 4. Review inhoud + fee | Frank Okker / Willem Pietermans | dag 2–3 |
+| 5. Team bepalen & teampagina invullen | Frank/Sjoerd | dag 3 |
+| 6. NDA tekenen; info Corum–PwC & Corum–M3E verwerken | Sjoerd | zodra ontvangen |
+| 7. Verzenden aan Dirk + Marcus, opvolgafspraak plannen | Sjoerd | wk 29 |
