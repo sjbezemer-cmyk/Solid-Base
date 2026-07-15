@@ -77,12 +77,12 @@ def label(s, x, y, w, text):
 
 def thread(s):
     """Golden-thread badge rechtsonder."""
-    b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(9.75), Inches(7.02),
-                           Inches(2.75), Inches(0.32))
+    b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(8.45), Inches(7.02),
+                           Inches(4.0), Inches(0.32))
     b.fill.solid(); b.fill.fore_color.rgb = CW_RED
     b.line.fill.background(); b.shadow.inherit = False
-    txt(s, Inches(9.75), Inches(7.05), Inches(2.75), Inches(0.28),
-        "CORUM DECIDES  ·  C&W DELIVERS", size=8, color=WHITE, bold=True,
+    txt(s, Inches(8.45), Inches(7.06), Inches(4.0), Inches(0.26),
+        "CORUM DECIDES  ·  C&W DELIVERS  ·  PwC ALIGNED", size=8, color=WHITE, bold=True,
         align=PP_ALIGN.CENTER)
 
 
@@ -255,10 +255,10 @@ txt(s, Inches(0.7), Inches(4.3), Inches(11.8), Inches(1.5),
     "the tenant relationship — and we bring you every decision, prepared, before it is needed.",
     size=15, color=WHITE)
 b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.7), Inches(6.2),
-                       Inches(4.4), Inches(0.5))
+                       Inches(6.5), Inches(0.5))
 b.fill.solid(); b.fill.fore_color.rgb = CW_RED; b.line.fill.background(); b.shadow.inherit = False
-txt(s, Inches(0.7), Inches(6.28), Inches(4.4), Inches(0.35),
-    "CORUM DECIDES  ·  C&W DELIVERS", size=12, color=WHITE, bold=True, align=PP_ALIGN.CENTER)
+txt(s, Inches(0.7), Inches(6.29), Inches(6.5), Inches(0.35),
+    "CORUM DECIDES  ·  C&W DELIVERS  ·  PwC ALIGNED", size=12, color=WHITE, bold=True, align=PP_ALIGN.CENTER)
 
 # ================================================ 7 WHAT WE TAKE OFF YOUR PLATE
 s = slide()
