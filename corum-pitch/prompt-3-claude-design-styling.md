@@ -34,6 +34,8 @@ it. Keep every placeholder marker visible ("€ [ • ]", "[ PHOTO ]", "[ GANTT 
 - **Footer:** thin, quiet, consistent — page number + section, as in the CBOE deck.
 - **Accent discipline:** accent colour is for labels, key numbers, milestone markers, table header rows,
   statement slides and the golden-thread chip only. Everything else stays ink/grey on white.
+- **Golden-thread chip (C11):** appears on **every content slide except the cover (1), the white Team page
+  (21) and the closing contact slide (24)** — on slide 24 the full-width contact bar is the brand element.
 - **Icons/dividers:** simple line style, matching the CBOE deck.
 
 ═══════════════════════════════════════════════════════════════════════
@@ -78,8 +80,8 @@ Right: an accent-tinted "WHAT THIS MEANS FOR CORUM" panel (the three-assets-at-s
 
 **6 — Governing answer.** C3 statement slide (full accent or ink background). Big: "Make Cushman & Wakefield
 your single point of control." Supporting paragraph in lighter weight. Add the CBOE-style triad line
-**"One programme. One accountable partner. PwC aligned."** and the C11 chip styled prominently. No masthead
-clutter — this is a breather slide.
+**"One programme. One accountable partner. PwC aligned."** and the C11 chip styled prominently (this
+statement slide keeps the chip, but drops the C1 masthead and C2 header). A breather slide.
 
 **7 — Our answer (three columns).** C1 + C2. C6 with three cards: **"PwC FULLY AWARE & ALIGNED"**,
 **"WE ORGANIZE THE SUSTAINABILITY WORKS"**, **"WE KEEP YOU IN CONTROL FROM AFAR"**. Give card 1 and card 3
@@ -164,8 +166,10 @@ This is the emotional close — make it confident and clean.
 - Do not reorder, add or remove slides; do not rewrite copy; do not populate the Team page.
 - Do not use colours, fonts or effects that are not present in the CBOE deck.
 - Do not convert placeholders into invented content — keep "€ [ • ]", "[ FOTO ]", "[ GANTT ]", "XX" visible.
-- Do not let any slide lose its C1 masthead, C2 section header or C11 golden-thread chip (except the cover,
-  the two statement slides, and the white Team page).
+- Masthead (C1) and section header (C2) appear on every content slide except the cover (1), the two
+  statement slides (6, 24) and the white Team page (21). The golden-thread chip (C11) appears on every
+  content slide except the cover (1), the white Team page (21) and the closing contact slide (24).
+  Do not drop these elements anywhere else.
 
 ═══════════════════════════════════════════════════════════════════════
 ## E. OUTPUT

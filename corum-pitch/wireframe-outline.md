@@ -2,8 +2,8 @@
 
 **Klant:** Corum A.M. (Dirk Hooiveld, Senior Technical Manager · Marcus Dillon)
 **Project:** Paris Proof-verduurzaming Westgate I, Thomas R. Malthusstraat 5, Amsterdam — ± 27.000 m², huurder PwC
-**Kernboodschap (golden thread):** *Maak C&W je single point of control — wij managen PwC namens Corum
-én organiseren de verduurzaming. **CORUM DECIDES · C&W DELIVERS.***
+**Kernboodschap (golden thread):** *Maak C&W je single point of control — wij **leveren** de Paris Proof-
+verduurzaming én houden **huurder PwC volledig op de hoogte en aligned**. **CORUM DECIDES · C&W DELIVERS · PwC ALIGNED.***
 **Taal deck:** Engels · **Structuur:** MBB-niveau (SCQA, action titles, pyramid principle)
 **Bronnen:** mailwisseling Sjoerd↔Dirk↔M3E (jul 2026), M3E-scenario's (9 feb 2026), ESA-pitch als niveaureferentie
 
@@ -21,7 +21,7 @@
 **Ronde 2 — verdieping (herzien: "deliver the works, PwC fully aware & aligned")**
 1. *Huurder = partner, geen probleem:* toon van "shield Corum from PwC" → "keep PwC fully aware and aligned"; deep-dive heet nu "We deliver the works with PwC fully aware and aligned".
 2. *Corums eigen woorden spiegelen:* letterlijke taal uit de samenvattingsmail — "PwC experiences full confidence that the project is under control", "actively involving PwC in the decision-making process", "continuous insight into progress and planning", "timely communication of changes that impact business operations".
-3. *"Deliver" als werkwoord van accountability:* C&W levert de werken end-to-end; leveren + alignment als dubbele belofte (golden thread blijft CORUM DECIDES · C&W DELIVERS).
+3. *"Deliver" als werkwoord van accountability:* C&W levert de werken end-to-end; leveren + alignment als dubbele belofte (golden thread: CORUM DECIDES · C&W DELIVERS · PwC ALIGNED).
 4. *Governance-doelen letterlijk op de pagina* + decision-rights/RACI-matrix; risico gekoppeld aan huurder/budget/deadline.
 5. *Slotvraag = de twee openstaande vragen uit de mail:* Corum–PwC-overeenkomst en Corum–M3E-afspraak, NDA-first; en "Picture Westgate I in 2030".
 
@@ -66,13 +66,13 @@
 ---
 
 ## Bestanden in deze map
+- `README.md` — de 3-prompt workflow + herbruik-checklist (start hier)
+- `TEMPLATE-prompts-reusable.md` — de 3 prompts met `{{variabelen}}` voor élke volgende pitch
 - `Corum-Westgate-I-Pitch-Wireframe.pptx` — de wireframe (24 slides, teampagina wit)
-- `build_wireframe_v2.py` — generator van de wireframe (v2, MBB-niveau)
-- `build_wireframe.py` — v1 generator (bewaard)
+- `build_wireframe_v2.py` — generator van de wireframe (MBB-niveau)
 - `prompt-1-fabel5.md` — Prompt 1: Fabel 5 (verhaal + copy → slide-voor-slide spec)
 - `prompt-2-claude-design.md` — Prompt 2: Claude Design (ALLEEN wireframe, grijs/low-fidelity)
 - `prompt-3-claude-design-styling.md` — Prompt 3: Claude Design styling-pass (CBOE look-and-feel over goedgekeurd wireframe; CBOE-PDF meesturen)
-- `claude-design-prompt.md` — v1 designprompt (bewaard)
 
 ## Proces naar verzending (intern)
 | Stap | Wie | Wanneer |

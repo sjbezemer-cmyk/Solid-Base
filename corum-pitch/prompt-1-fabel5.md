@@ -46,7 +46,7 @@ Toon: PwC is een **partner die we aligned houden**, níet een probleem waar we C
   **Corum–M3E-afspraak**; NDA-first (via Dentons).
 
 **Wat ik van je wil — lever exact dit:**
-1. Een **slide-voor-slide wireframe-spec** voor een deck van ± 22–24 slides, in het **Engels**, met per
+1. Een **slide-voor-slide wireframe-spec** voor een deck van **24 slides** (zoals in het wireframe), in het **Engels**, met per
    slide: (a) een **action title** = de conclusie, niet het onderwerp; (b) een korte **kicker/sectielabel**;
    (c) de **bodytekst/bullets** in definitieve, wervende maar zakelijke copy (meer tekst is goed — dit is
    inhoudelijk, geen tagline-deck); (d) een korte **layout-hint** (bv. "3 kolommen", "tijdlijn", "RACI-tabel").

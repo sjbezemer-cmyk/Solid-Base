@@ -27,10 +27,11 @@ upgrade in Amsterdam. Use the attached slide-by-slide spec verbatim for structur
   nothing else.
 - Keep all placeholder markers ("€ [ • ]", "[ PHOTO ]") visible and easy to find and replace later.
 
-**Golden thread:** the message "CORUM DECIDES · C&W DELIVERS · PwC ALIGNED" recurs as a small footer badge
-on every content slide, and the two tenant-facing ideas — *we deliver the works* and *PwC stays fully aware
-and aligned* — must read clearly on the executive-summary, "what we take off your plate", and PwC deep-dive
-wireframes.
+**Golden thread:** the message "CORUM DECIDES · C&W DELIVERS · PwC ALIGNED" recurs as a small footer badge on
+**every content slide except the cover, the white Team page and the closing contact slide** (where the
+full-width contact bar is the brand element). The two tenant-facing ideas — *we deliver the works* and
+*PwC stays fully aware and aligned* — must read clearly on the executive-summary, "what we take off your
+plate", and PwC deep-dive wireframes.
 
 Deliver the wireframe as editable slides (real text boxes and placeholder shapes), one per spec slide, in
 the same order. Do **not** proceed to a high-fidelity design — wireframe only.

@@ -158,7 +158,7 @@ for i, (k, d, c) in enumerate(scqa):
 
 # ===================================================== 3 CONTENTS
 s = slide()
-header(s, "Contents", "How this proposal is built", 3, tline=False)
+header(s, "Contents", "How this proposal is built", 3)
 items = [
     ("01", "THE CASE FOR ACTION", "Situation, complication\n& our governing answer"),
     ("02", "WHAT WE TAKE\nOFF YOUR PLATE", "Managing PwC & organizing\nthe Paris Proof works"),
