@@ -771,11 +771,11 @@ for i, (a, b_, c) in enumerate(fee_rows):
         color=CW_RED, bold=True, anchor=MSO_ANCHOR.MIDDLE)
 box(s, Inches(8.3), Inches(1.95), Inches(4.55), Inches(2.9), fill=LIGHT)
 txt(s, Inches(8.5), Inches(2.1), Inches(4.2), Inches(0.35),
-    "RATE CARD (REFERENCE)", size=11, color=CW_RED, bold=True)
+    "RATE CARD — C&W PDS 2026", size=11, color=CW_RED, bold=True)
 txt(s, Inches(8.5), Inches(2.5), Inches(4.2), Inches(2.3),
-    "Senior Project Manager   € 145 / hr\nProject Manager             € 135 / hr\n"
-    "Technical PM                 € 135 / hr\nCost Manager                € 125 / hr\n"
-    "Site Manager                 € 120 / hr\n\n[ tarieven & inzet definitief met Frank ]",
+    "Project Manager             € 145 / hr\nSenior Project Manager   € 155 / hr\n"
+    "Cost Manager                € 145 / hr\nAssociate Director          € 175 / hr\n"
+    "Partner                          € 250 / hr\n\n[ tarieven excl. btw · inzet definitief met Frank ]",
     size=10, space=2)
 box(s, Inches(0.45), Inches(5.0), Inches(12.4), Inches(1.6), fill=WHITE)
 txt(s, Inches(0.65), Inches(5.12), Inches(12), Inches(0.35),
