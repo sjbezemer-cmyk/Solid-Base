@@ -3,11 +3,11 @@
 > Start hier. Alles staat in deze map (`corum-pitch/`). Zie ook `README.md`.
 > Golden thread: **CORUM DECIDES · C&W DELIVERS · PwC ALIGNED**.
 
-## Stap 0 — 4 keuzes vooraf vastleggen
-1. **Taal deck:** Engels (huidig) of Nederlands?
-2. **Fee:** placeholders laten of invullen met Frank's tarieven (B+L-referentie)?
-3. **Referenties (slide 22):** welke 3–4 projecten? (verduurzaming/renovatie in gebruik zijnd kantoor)
-4. **Planning:** harde Paris Proof-deadline / jaartallen van M3E?
+## Stap 0 — keuzes (STATUS 16 jul)
+1. **Taal deck:** ✅ Engels (blijft).
+2. **Fee:** ✅ per-fase bedragen als placeholders; **rate card slide 23 gevuld** met actuele 2026 C&W PDS-tarieven (PM €145 · Sr PM €155 · Cost €145 · Associate Director €175 · Partner €250, excl. btw).
+3. **Referenties (slide 22):** ✅ placeholders laten; jij levert later 3–4 projecten.
+4. **Planning:** ✅ indicatief houden (2026→2029, "te valideren met M3E"). ⏳ **ACTIE:** M3E-uitvoeringsplanning / jaartallen opvragen bij Björn van der Lande (M3E) — zit niet in onze systemen; daarna journey (13) + planning (15) bijwerken.
 
 ## Route A — Snel (als copy al goed is)
 Bestaand `Corum-Westgate-I-Pitch-Wireframe.pptx` → direct **Prompt 3** (`prompt-3-claude-design-styling.md`)
