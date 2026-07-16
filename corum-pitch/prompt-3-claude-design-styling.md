@@ -12,6 +12,28 @@
 
 ---
 
+## BRAND TOKENS — use these EXACTLY (colours as hex, fonts by name; do not approximate)
+> Fill the `?`-values from the CBOE deck first (PowerPoint → Design → Variants → Colours/Fonts, or an
+> eyedropper, or a brand-extractor on the PDF). See `STRATEGIE-look-and-feel-transfer.md`. Defaults below.
+```
+Colours
+  --accent  #C3002B   (C&W red — CONFIRM against CBOE; alternative seen: #DE0025)
+  --ink     #1C1C1C    --grey #7A7A7A   --panel #F3F3F3   --hair #E2E2E2   --white #FFFFFF
+  --teal    #0093B2?   (only if CBOE uses it as a secondary accent)
+Fonts (PowerPoint = C&W Office standard)
+  Headings / section labels : Arial Bold
+  Body                      : Arial Regular
+Type scale
+  H1 title 28–32pt · SECTION LABEL 10–11pt UPPERCASE tracked · body 10–11pt · caption 8pt
+Style
+  flat, high-contrast, generous whitespace · thin red section spine (left) · UPPERCASE red section label
+  + sentence-case descriptor · statement slides on --ink/--accent
+```
+**Use the BRAND TOKENS above verbatim.** Anything not specified here, sample directly from the attached
+CBOE deck. Where a token is given, match it exactly — never approximate a colour or substitute a font.
+
+---
+
 Apply the **exact visual look-and-feel of the attached "CBOE pitch July 15 2026.pdf"** (the C&W house style)
 to the attached approved 24-slide wireframe for the **Cushman & Wakefield → Corum A.M. "Westgate I — Paris
 Proof"** pitch. This is a **styling pass only**: keep the slide order, the content, the copy, the tables,
