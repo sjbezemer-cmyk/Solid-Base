@@ -59,7 +59,7 @@ def box(s, x, y, w, h, fill=LIGHT, line=None, dashed=False):
 
 
 def txt(s, x, y, w, h, text, size=12, color=CW_DARK, bold=False,
-        align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP, italic=False, space=None):
+        align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP, italic=False, space=None, font="Arial"):
     tb = s.shapes.add_textbox(x, y, w, h)
     tf = tb.text_frame
     tf.word_wrap = True
@@ -73,7 +73,7 @@ def txt(s, x, y, w, h, text, size=12, color=CW_DARK, bold=False,
         r = p.add_run(); r.text = line
         f = r.font
         f.size = Pt(size); f.bold = bold; f.italic = italic
-        f.color.rgb = color; f.name = "Arial"
+        f.color.rgb = color; f.name = font
     return tb
 
 
@@ -136,38 +136,47 @@ box(s, Inches(11.2), Inches(6.35), Inches(1.85), Inches(0.78), fill=LIGHT)
 txt(s, Inches(11.2), Inches(6.55), Inches(1.85), Inches(0.4), "[C&W LOGO]",
     size=10, color=GREY, align=PP_ALIGN.CENTER)
 
-# ============================================== 2 EXECUTIVE SUMMARY (SCQA)
+# ============================================== 2 EXECUTIVE SUMMARY (CBOE-stijl)
 s = slide()
-header(s, "Executive summary — the proposal on one page",
-       "Appoint C&W as your single point of control: we deliver Paris Proof\nwith PwC fully aware and aligned — you decide, we deliver", 2)
-scqa = [
-    ("SITUATION",
-     "Corum owns Westgate I — a prime 27,000 m² Amsterdam office, fully let to PwC — and has "
-     "committed to make the building Paris Proof. This is a binding contractual obligation, not "
-     "an ambition.", CW_DARK),
-    ("COMPLICATION",
-     "The upgrade must happen inside a live, occupied building without losing PwC's confidence, "
-     "within a fixed budget and against a hard sustainability deadline — while being steered from "
-     "a distance by an owner whose core business is investment, not Dutch construction management.", CW_DARK),
-    ("QUESTION",
-     "How does Corum deliver Paris Proof and protect both the PwC tenancy and the asset's value, "
-     "without being pulled into day-to-day tenant and project management in the Netherlands?", CW_RED),
-    ("ANSWER",
-     "Appoint Cushman & Wakefield as your single point of control. We deliver the Paris Proof "
-     "transformation end-to-end and keep PwC fully aware and aligned throughout — from a "
-     "low-commitment preparatory phase to verified handover. One contact, one report, no surprises.", CW_RED),
-]
-y = Inches(1.75)
-for i, (k, d, c) in enumerate(scqa):
-    h = Inches(1.02) if i in (0, 2) else Inches(1.28)
-    box(s, Inches(0.45), y, Inches(2.3), h, fill=c if c == CW_RED else CW_DARK, dashed=False)
-    txt(s, Inches(0.45), y + Inches(0.08), Inches(2.3), Inches(0.5), k,
-        size=13, color=WHITE, bold=True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
-    box(s, Inches(2.8), y, Inches(10.05), h, fill=LIGHT if c == CW_DARK else WHITE,
-        line=CW_RED if c == CW_RED else GREY)
-    txt(s, Inches(3.0), y + Inches(0.1), Inches(9.7), h - Inches(0.2), d,
-        size=11.5, bold=(c == CW_RED), anchor=MSO_ANCHOR.MIDDLE)
-    y = y + h + Inches(0.12)
+# CBOE-header: geen spine — amber sectielabel + navy descriptor
+txt(s, Inches(0.6), Inches(0.46), Inches(11.5), Inches(0.35),
+    "EXECUTIVE SUMMARY", size=13, color=ACCENT, bold=True)
+txt(s, Inches(0.6), Inches(0.82), Inches(12.0), Inches(0.5),
+    "Appoint C&W as your single point of control — you decide, we deliver",
+    size=18, color=NAVY, bold=True)
+# footer + paginanummer + golden thread
+txt(s, Inches(0.6), Inches(7.05), Inches(6), Inches(0.3),
+    "Cushman & Wakefield  |  Corum A.M.  ·  Westgate I", size=8, color=GREY)
+txt(s, Inches(12.55), Inches(7.05), Inches(0.55), Inches(0.3), "2", size=10, color=GREY, align=PP_ALIGN.RIGHT)
+thread(s)
+
+# dun amber verticaal streepje bij de linkerkolom
+box(s, Inches(0.6), Inches(1.75), Inches(0.045), Inches(4.05), fill=ACCENT)
+# LINKS: Situation + Complication (amber sub-kop + navy body)
+txt(s, Inches(0.85), Inches(1.78), Inches(5.4), Inches(0.3), "SITUATION", size=12, color=ACCENT, bold=True)
+txt(s, Inches(0.85), Inches(2.12), Inches(5.55), Inches(1.5),
+    "Corum owns Westgate I — a prime 27,000 m² Amsterdam office, fully let to PwC — and has "
+    "committed to make the building Paris Proof: a binding contractual obligation, not an ambition.",
+    size=11.5, color=NAVY)
+txt(s, Inches(0.85), Inches(3.85), Inches(5.4), Inches(0.3), "COMPLICATION", size=12, color=ACCENT, bold=True)
+txt(s, Inches(0.85), Inches(4.19), Inches(5.55), Inches(1.6),
+    "The upgrade must happen inside a live, occupied building without losing PwC's confidence, on a "
+    "fixed budget and against a hard deadline — steered from a distance by an investor, not a builder.",
+    size=11.5, color=NAVY)
+
+# RECHTS: de QUESTION als amber serif pull-quote (CBOE-patroon)
+txt(s, Inches(6.95), Inches(1.75), Inches(5.9), Inches(2.0),
+    "How does Corum deliver Paris Proof and protect the PwC tenancy and the asset's value — "
+    "without being pulled into day-to-day management in the Netherlands?",
+    size=19, color=ACCENT, italic=True, font="Georgia", anchor=MSO_ANCHOR.MIDDLE)
+# navy answer-card met amber label
+box(s, Inches(6.95), Inches(4.0), Inches(5.9), Inches(1.95), fill=NAVY)
+txt(s, Inches(7.2), Inches(4.18), Inches(5.5), Inches(0.3), "OUR ANSWER", size=12, color=ACCENT, bold=True)
+txt(s, Inches(7.2), Inches(4.54), Inches(5.45), Inches(1.3),
+    "Appoint Cushman & Wakefield as your single point of control. We deliver the transformation "
+    "end-to-end and keep PwC fully aware and aligned — from a low-commitment preparatory phase to "
+    "verified handover. One contact, one report, no surprises.",
+    size=11.5, color=WHITE)
 
 # ===================================================== 3 CONTENTS
 s = slide()
