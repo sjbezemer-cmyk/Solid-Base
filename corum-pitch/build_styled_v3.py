@@ -13,7 +13,7 @@ Verbeteringen t.o.v. v1 (na 3 rondes x 5 invalshoeken):
 from pptx import Presentation
 from pptx.util import Inches, Pt, Emu
 from pptx.dml.color import RGBColor
-from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.enum.text import PP_ALIGN, MSO_ANCHOR, MSO_AUTO_SIZE
 from pptx.enum.shapes import MSO_SHAPE
 from pptx.oxml.ns import qn
 
@@ -57,6 +57,7 @@ def txt(s, x, y, w, h, text, size=12, color=CW_DARK, bold=False,
     tb = s.shapes.add_textbox(x, y, w, h)
     tf = tb.text_frame
     tf.word_wrap = True
+    tf.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE  # STYLED: krimp tekst bij overloop
     tf.vertical_anchor = anchor
     for i, line in enumerate(text.split("\n")):
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
@@ -125,8 +126,8 @@ txt(s, Inches(0.6), Inches(5.7), Inches(11.5), Inches(0.6),
 txt(s, Inches(0.6), Inches(6.5), Inches(9), Inches(0.5),
     "Project Management Proposal  ·  Prepared for Corum A.M.  ·  July 2026",
     size=12, color=GREY)
-box(s, Inches(11.0), Inches(5.55), Inches(1.8), Inches(0.9), fill=LIGHT)
-txt(s, Inches(11.0), Inches(5.85), Inches(1.8), Inches(0.4), "[C&W LOGO]",
+box(s, Inches(11.2), Inches(6.35), Inches(1.85), Inches(0.78), fill=LIGHT)
+txt(s, Inches(11.2), Inches(6.55), Inches(1.85), Inches(0.4), "[C&W LOGO]",
     size=10, color=GREY, align=PP_ALIGN.CENTER)
 
 # ============================================== 2 EXECUTIVE SUMMARY (SCQA)
