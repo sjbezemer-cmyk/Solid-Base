@@ -17,14 +17,20 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR, MSO_AUTO_SIZE
 from pptx.enum.shapes import MSO_SHAPE
 from pptx.oxml.ns import qn
 
-CW_RED = RGBColor(0xC3, 0x00, 0x2B)
-CW_DARK = RGBColor(0x1C, 0x1C, 0x1C)
-GREY = RGBColor(0x7A, 0x7A, 0x7A)
-HAIR = RGBColor(0xE2, 0xE2, 0xE2)
-LIGHT = RGBColor(0xF3, 0xF3, 0xF3)
+# CBOE-huisstijl (gemeten): navy + amber + wit + cream
+NAVY = RGBColor(0x1F, 0x19, 0x42)     # primair donker
+NAVY2 = RGBColor(0x2A, 0x22, 0x50)    # iets lichter navy = accent-fill (marker, blijft navy-ogend)
+AMBER = RGBColor(0xF4, 0xB6, 0x34)    # accent
+CREAM = RGBColor(0xF4, 0xEF, 0xE6)    # warm paneel
+ACCENT = AMBER
+CW_RED = NAVY2                         # 'rood' hergebruikt als accent-fill-marker (navy)
+CW_DARK = NAVY
+GREY = RGBColor(0x6B, 0x64, 0x67)
+HAIR = RGBColor(0xE2, 0xDE, 0xD6)
+LIGHT = CREAM
 MID = RGBColor(0xD9, 0xD9, 0xD9)
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
-AMBER = RGBColor(0xE8, 0x9A, 0x00)
+RAG_RED = RGBColor(0xC0, 0x39, 0x2B)
 GREEN = RGBColor(0x2E, 0x7D, 0x32)
 
 SW, SH = Inches(13.333), Inches(7.5)
@@ -86,19 +92,19 @@ def thread(s):
     """Golden-thread badge rechtsonder."""
     b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(8.45), Inches(7.02),
                            Inches(4.0), Inches(0.32))
-    b.fill.solid(); b.fill.fore_color.rgb = CW_RED
+    b.fill.solid(); b.fill.fore_color.rgb = NAVY
     b.line.fill.background(); b.shadow.inherit = False
     txt(s, Inches(8.45), Inches(7.06), Inches(4.0), Inches(0.26),
-        "CORUM DECIDES  ·  C&W DELIVERS  ·  PwC ALIGNED", size=8, color=WHITE, bold=True,
+        "CORUM DECIDES  ·  C&W DELIVERS  ·  PwC ALIGNED", size=8, color=ACCENT, bold=True,
         align=PP_ALIGN.CENTER)
 
 
 def header(s, kicker, title, num, tline=True):
-    bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(0.18), SH)
-    bar.fill.solid(); bar.fill.fore_color.rgb = CW_RED
+    bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(0.14), SH)
+    bar.fill.solid(); bar.fill.fore_color.rgb = ACCENT
     bar.line.fill.background(); bar.shadow.inherit = False
     txt(s, Inches(0.45), Inches(0.24), Inches(11), Inches(0.3),
-        kicker.upper(), size=10, color=CW_RED, bold=True)
+        kicker.upper(), size=10, color=ACCENT, bold=True)
     txt(s, Inches(0.45), Inches(0.5), Inches(12.2), Inches(0.95),
         title, size=23, color=CW_DARK, bold=True)
     txt(s, Inches(0.45), Inches(7.05), Inches(6), Inches(0.3),
@@ -248,14 +254,17 @@ txt(s, Inches(0.45), Inches(6.5), Inches(11.5), Inches(0.4),
 # ================================================ 6 GOVERNING THOUGHT
 s = slide()
 box(s, 0, 0, SW, SH, fill=CW_DARK, line=CW_DARK, dashed=False)
-bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(0.18), SH)
-bar.fill.solid(); bar.fill.fore_color.rgb = CW_RED
+bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(0.14), SH)
+bar.fill.solid(); bar.fill.fore_color.rgb = ACCENT
 bar.line.fill.background(); bar.shadow.inherit = False
 txt(s, Inches(0.7), Inches(1.4), Inches(11), Inches(0.4),
-    "OUR GOVERNING ANSWER", size=12, color=CW_RED, bold=True)
+    "OUR GOVERNING ANSWER", size=12, color=ACCENT, bold=True)
 txt(s, Inches(0.7), Inches(2.0), Inches(12), Inches(2.6),
     "Make Cushman & Wakefield your single\npoint of control in the Netherlands.",
     size=34, color=WHITE, bold=True)
+# amber accent rule under the statement
+ar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.72), Inches(3.95), Inches(3.2), Inches(0.06))
+ar.fill.solid(); ar.fill.fore_color.rgb = ACCENT; ar.line.fill.background(); ar.shadow.inherit = False
 txt(s, Inches(0.7), Inches(4.3), Inches(11.8), Inches(1.5),
     "We deliver the entire Paris Proof transformation end-to-end and keep PwC "
     "fully aware and aligned at every step. You steer the asset; we run the works and "
@@ -263,9 +272,10 @@ txt(s, Inches(0.7), Inches(4.3), Inches(11.8), Inches(1.5),
     size=15, color=WHITE)
 b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.7), Inches(6.2),
                        Inches(6.5), Inches(0.5))
-b.fill.solid(); b.fill.fore_color.rgb = CW_RED; b.line.fill.background(); b.shadow.inherit = False
+b.fill.solid(); b.fill.fore_color.rgb = NAVY2; b.line.color.rgb = ACCENT; b.line.width = Pt(1)
+b.shadow.inherit = False
 txt(s, Inches(0.7), Inches(6.29), Inches(6.5), Inches(0.35),
-    "CORUM DECIDES  ·  C&W DELIVERS  ·  PwC ALIGNED", size=12, color=WHITE, bold=True, align=PP_ALIGN.CENTER)
+    "CORUM DECIDES  ·  C&W DELIVERS  ·  PwC ALIGNED", size=12, color=ACCENT, bold=True, align=PP_ALIGN.CENTER)
 
 # ================================================ 7 WHAT WE TAKE OFF YOUR PLATE
 s = slide()
@@ -480,13 +490,13 @@ milestones = [
 n = len(milestones)
 x0 = Inches(0.6); span = Inches(12.1)
 line = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, x0, Inches(3.35), span, Inches(0.06))
-line.fill.solid(); line.fill.fore_color.rgb = CW_RED; line.line.fill.background(); line.shadow.inherit = False
+line.fill.solid(); line.fill.fore_color.rgb = ACCENT; line.line.fill.background(); line.shadow.inherit = False
 step = Emu(int(span) // n)
 for i, (t, when, d) in enumerate(milestones):
     cx = x0 + Emu(int(step) * i) + Emu(int(step)//2)
     dia = s.shapes.add_shape(MSO_SHAPE.DIAMOND, cx - Inches(0.16), Inches(3.22),
                              Inches(0.32), Inches(0.32))
-    dia.fill.solid(); dia.fill.fore_color.rgb = CW_RED if i in (0, n-1) else CW_DARK
+    dia.fill.solid(); dia.fill.fore_color.rgb = ACCENT if i in (0, n-1) else CW_DARK
     dia.line.color.rgb = WHITE; dia.shadow.inherit = False
     bx = cx - Emu(int(step)//2) + Inches(0.1)
     bw = step - Inches(0.2)
@@ -566,7 +576,7 @@ for i, (name, start, dur, milestone) in enumerate(rows):
     bw = Emu(int(int(colw) * dur))
     b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, bx, y + Inches(0.03),
                            bw, Inches(0.3))
-    b.fill.solid(); b.fill.fore_color.rgb = CW_RED if milestone else MID
+    b.fill.solid(); b.fill.fore_color.rgb = ACCENT if milestone else MID
     b.line.fill.background(); b.shadow.inherit = False
 box(s, Inches(0.45), Inches(6.55), Inches(4.5), Inches(0.45), fill=LIGHT)
 txt(s, Inches(0.55), Inches(6.62), Inches(4.3), Inches(0.35),
@@ -688,7 +698,7 @@ for j, h in enumerate(hdr):
     txt(s, cx + Inches(0.05), y0 + Inches(0.05), Inches(wds[j]) - Inches(0.1), Inches(0.3),
         h, size=9, color=WHITE, bold=True)
     cx += Inches(wds[j])
-rag_colors = [AMBER, CW_RED, CW_RED, AMBER, AMBER, AMBER]
+rag_colors = [AMBER, RAG_RED, RAG_RED, AMBER, AMBER, AMBER]
 for i, row in enumerate(risks):
     cy = y0 + Inches(0.4) + i * Inches(0.56)
     cx = x
@@ -795,10 +805,10 @@ txt(s, Inches(0.65), Inches(5.5), Inches(12), Inches(1.05),
 # ================================================ 24 2030 VISION + NEXT STEPS
 s = slide()
 box(s, 0, 0, SW, Inches(3.05), fill=CW_DARK, line=CW_DARK, dashed=False)
-bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(0.18), SH)
-bar.fill.solid(); bar.fill.fore_color.rgb = CW_RED; bar.line.fill.background(); bar.shadow.inherit = False
+bar = s.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(0.14), SH)
+bar.fill.solid(); bar.fill.fore_color.rgb = ACCENT; bar.line.fill.background(); bar.shadow.inherit = False
 txt(s, Inches(0.6), Inches(0.5), Inches(11), Inches(0.35),
-    "06 — THE DECISION", size=11, color=CW_RED, bold=True)
+    "06 — THE DECISION", size=11, color=ACCENT, bold=True)
 txt(s, Inches(0.6), Inches(0.95), Inches(12), Inches(0.7),
     "Picture Westgate I in 2030", size=28, color=WHITE, bold=True)
 txt(s, Inches(0.6), Inches(1.75), Inches(12), Inches(1.1),
