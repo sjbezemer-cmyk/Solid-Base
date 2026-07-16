@@ -23,26 +23,27 @@ putten voor consistente output; vertaal tokens naar een herbruikbaar promptfragm
 3. **Automatische extractor:** upload de CBOE-**PDF** naar een brand-extractor (StyleExtract, Brandparser,
    Brandfetch, dembrandt) → krijg een `DESIGN.md`/token-JSON met kleuren + fonts.
 
-## Stap 2 — Vul het tokenblok
-Bekende C&W-defaults (vervang de `?`-waarden door wat je in stap 1 vindt):
+## Stap 2 — Het tokenblok (GEMETEN uit de CBOE-slides, 16 jul 2026)
+Pixel-exact gesampled uit screenshots van de CBOE-pitch (twee overeenkomende samples per kleur).
+**De echte CBOE-look is navy + amber + wit — NIET rood/charcoal.**
 ```
-BRAND TOKENS — Cushman & Wakefield (bron: CBOE-deck)
+BRAND TOKENS — CBOE / Cushman & Wakefield (gemeten)
 Colours
-  --accent   #C3002B   ← C&W-rood (bevestig tegen CBOE; alt. gezien: #DE0025)
-  --ink      #1C1C1C   ← charcoal (tekst/koppen op donkere slides)
-  --grey     #7A7A7A   ← secundaire tekst
-  --panel    #F3F3F3   ← lichte vlakken
-  --hair     #E2E2E2   ← dunne lijnen
-  --white    #FFFFFF
-  --teal     #0093B2?  ← alleen als CBOE dit als secundair gebruikt
-Fonts (PowerPoint = C&W Office-standaard)
-  Headings/labels : Arial Bold      (print-variant = Gotham Bold / Chronicle — niet in PPTX)
-  Body            : Arial Regular
+  --navy    #1F1942   PRIMAIR donker — achtergronden, cards, koppen & body op licht
+  --amber   #F4B634   ACCENT — sectielabels, titels, pull-quotes, data, kerncijfers
+  --white   #FFFFFF   lichte achtergronden en tekst op navy
+  --cream   #F4EFE6   subtiel warm off-white paneel
+  --grey    #6B6467   captions / secundaire tekst
+Fonts
+  Sectielabels / titels / body : Arial   (sectielabel = Arial Bold, HOOFDLETTERS, amber)
+  Taglines & pull-quotes       : serif — Chronicle Display italic (fallback Georgia), meestal amber
 Type scale
-  H1 titel 28–32pt · SECTIELABEL 10–11pt HOOFDLETTERS met tracking · body 10–11pt · caption 8pt
+  H1/titel 26–32pt · SECTIELABEL 12–13pt HOOFDLETTERS bold amber · descriptor 14–16pt navy ·
+  body 9–11pt · caption 8pt
 Stijl
-  vlak, hoog contrast, veel witruimte · dunne rode sectie-spine links ·
-  HOOFDLETTER-sectielabel (rood) + sentence-case descriptor eronder · statement-slides op --ink/--accent
+  Navy + amber + wit, editorial, veel witruimte. Amber HOOFDLETTER-sectielabel met navy sentence-case
+  descriptor eronder. Statement-slides & cards in navy met witte tekst; amber voor de kernregel.
+  Korte taglines in serif italic ("Better never settles"). Header linksboven "Cushman & Wakefield | [klant]".
 ```
 
 ## Stap 3 — Zet het tokenblok bovenaan de styling-prompt
