@@ -209,7 +209,7 @@ txt(s, Inches(8.3), Inches(2.8), Inches(4.4), Inches(3.4),
 # ================================================ 5 COMPLICATION
 s = slide()
 header(s, "01 — The case for action  ·  Complication",
-       "Three forces threaten the asset — and they all converge\non one building, still in use", 5)
+       "Three forces converge on one occupied building —\nand all three touch your return", 5)
 forces = [
     ("THE TENANT RISK", "PwC keeps working while you rebuild",
      "A previous Corum project (Rotterdam) showed how quickly insufficient communication erodes tenant "
@@ -299,7 +299,7 @@ txt(s, Inches(0.45), Inches(6.45), Inches(11.5), Inches(0.4),
 # ================================================ 8 UNDERSTANDING / STAKEHOLDERS
 s = slide()
 header(s, "01 — The case for action  ·  The playing field",
-       "You already sit at the centre of four parties — we become\nthe hub that connects them", 8)
+       "Four parties, one hub: we connect Corum, PwC,\nM3E and the contractor", 8)
 box(s, Inches(0.45), Inches(1.95), Inches(4.6), Inches(4.4), fill=LIGHT)
 txt(s, Inches(0.6), Inches(2.1), Inches(4.3), Inches(0.4), "THE PARTIES", size=12, color=CW_RED, bold=True)
 parties = [
@@ -401,7 +401,7 @@ for i, (t, d) in enumerate(blocks):
 # ================================================ 11 ORGANIZE WORKS (DEEP DIVE)
 s = slide()
 header(s, "02 — What we take off your plate  ·  Deep dive 2 of 2",
-       "We organize the sustainability works — from M3E's design\nto a building that is Paris Proof", 11)
+       "We organize the works — from M3E's design\nto a building that is Paris Proof", 11)
 txt(s, Inches(0.45), Inches(1.85), Inches(12.3), Inches(0.8),
     "C&W is the orchestrator of the transformation. We take M3E's technical concept and turn it into a scope that "
     "can be tendered, contracted, built and commissioned — floor-by-floor, on budget, to the Paris Proof standard. "
@@ -495,7 +495,7 @@ label(s, Inches(0.45), Inches(6.55), Inches(11),
 # ================================================ 14 PHASED ENGAGEMENT
 s = slide()
 header(s, "03 — The journey  ·  Engagement model",
-       "You commit in steps: start small, then scale with confidence", 14)
+       "You commit in steps: start small, scale with confidence", 14)
 phases = [
     ("PHASE 0", "PREPARATORY ASSIGNMENT",
      "A limited, low-commitment start: map all stakeholders, set up the project organisation, gather "
