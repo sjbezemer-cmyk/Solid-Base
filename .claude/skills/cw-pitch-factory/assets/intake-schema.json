@@ -1,0 +1,19 @@
+{
+  "_comment": "Het ENIGE dat per pitch wisselt. Vul dit uit de mails/vault; vraag alleen wat ontbreekt.",
+  "client":   {"name": "", "profile": "", "contacts": []},
+  "building": {"name": "", "address": "", "size_m2": "", "tenant": "", "in_use": true},
+  "objective": "",
+  "main_question": "",
+  "team": {"model": "two-PM", "roles": ["Stakeholder Management PM", "Technical PM"], "names": []},
+  "advisor": {"name": "", "scenarios": []},
+  "phasing": ["Phase 0 — Preparatory", "PM Preparation", "PM Execution", "Building Consultancy"],
+  "client_own_words": [],
+  "lesson": "",
+  "open_questions": [],
+  "golden_thread": "CLIENT DECIDES · C&W DELIVERS · TENANT ALIGNED",
+  "fee": {"rate_card_2026": true, "amounts": "placeholders"},
+  "references": [],
+  "planning": "indicative",
+  "reference_deck": "",
+  "language": "EN"
+}

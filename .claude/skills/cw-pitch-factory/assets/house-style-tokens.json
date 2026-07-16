@@ -1,0 +1,22 @@
+{
+  "_comment": "C&W CBOE-huisstijl, pixel-exact gemeten uit de CBOE-pitch (16 jul 2026). Navy + amber + wit.",
+  "colours": {
+    "navy":  "1F1942",
+    "navy2": "2A2250",
+    "amber": "F4B634",
+    "cream": "F4EFE6",
+    "white": "FFFFFF",
+    "grey":  "6B6467",
+    "hair":  "E2DED6",
+    "mid":   "D9D9D9",
+    "rag_red": "C0392B",
+    "rag_amber": "F4B634",
+    "rag_green": "2E7D32"
+  },
+  "fonts": {
+    "sans": "Arial",
+    "serif": "Georgia",
+    "_note": "Bevestig exacte CBOE-fonts in PowerPoint (Ontwerp > Varianten > Lettertypen). Labels = Arial Bold HOOFDLETTERS amber; taglines/pull-quotes = serif (Chronicle/Georgia) italic amber."
+  },
+  "golden_thread": "CORUM DECIDES · C&W DELIVERS · PwC ALIGNED"
+}
