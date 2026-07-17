@@ -259,9 +259,93 @@ def closing(s, d):
     txt(s, 0.8, 6.75, 12, 0.42, d.get("contact", ""), 11.5, AMBER, bold=True)
 
 
+def compare(s, d):
+    head(s, d.get("label", ""), d.get("descriptor", ""))
+    cols = [d.get("left", {}), d.get("right", {})]
+    for i, c in enumerate(cols):
+        x = 0.6 + i * 6.35
+        box(s, x, 1.95, 6.05, 3.7, WHITE, line=HAIR)
+        box(s, x, 1.95, 6.05, 0.55, NAVY if i == 0 else NAVY2)
+        txt(s, x + 0.15, 2.03, 5.75, 0.4, c.get("title", ""), 11, AMBER if i == 0 else WHITE, bold=True)
+        body = "\n".join("•  " + b for b in c.get("bullets", []))
+        txt(s, x + 0.2, 2.65, 5.65, 2.9, body, 10.5, NAVY)
+    if d.get("banner"):
+        box(s, 0.6, 5.85, 12.25, 0.75, CREAM, line=HAIR)
+        txt(s, 0.8, 5.97, 12, 0.55, d["banner"], 11, NAVY, bold=True)
+
+
+def hub(s, d):
+    head(s, d.get("label", ""), d.get("descriptor", ""))
+    cx, cy = 6.4, 3.7
+    box(s, cx - 0.95, cy - 0.5, 1.9, 1.0, NAVY)
+    txt(s, cx - 0.95, cy - 0.42, 1.9, 0.85, d.get("hub_title", "C&W\nSingle point\nof control"),
+        10, AMBER, bold=True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    pos = [(cx, 2.0), (cx - 3.5, cy), (cx + 3.5, cy), (cx, 5.4)]
+    for i, nm in enumerate(d.get("nodes", [])[:4]):
+        x, y = pos[i]
+        ln = s.shapes.add_connector(2, Inches(cx), Inches(cy), Inches(x + 0.95), Inches(y + 0.4))
+        ln.line.color.rgb = HAIR; ln.line.width = Pt(1)
+        box(s, x, y, 1.9, 0.8, CREAM, line=HAIR)
+        txt(s, x, y + 0.12, 1.9, 0.6, nm, 10, NAVY, bold=True, align=PP_ALIGN.CENTER)
+
+
+def org(s, d):
+    head(s, d.get("label", ""), d.get("descriptor", ""))
+
+    def row(items, y, h, accent=False):
+        n = max(1, len(items)); w = min(3.1, (11.6) / n)
+        total = n * w + (n - 1) * 0.3; x0 = (13.333 - total) / 2
+        for i, it in enumerate(items):
+            x = x0 + i * (w + 0.3)
+            box(s, x, y, w, h, NAVY if accent else WHITE, line=None if accent else HAIR, lw=1)
+            txt(s, x + 0.1, y + 0.08, w - 0.2, h - 0.15, it,
+                10, AMBER if accent else NAVY, bold=True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    row(d.get("top", []), 1.95, 0.75)
+    row(d.get("middle", []), 3.0, 1.1, accent=True)
+    row(d.get("bottom", []), 4.7, 0.8)
+    if d.get("strap"):
+        box(s, 0.6, 6.05, 12.25, 0.9, CREAM, line=HAIR)
+        txt(s, 0.8, 6.2, 12, 0.65, d["strap"], 11.5, NAVY, bold=True)
+
+
+def gantt(s, d):
+    head(s, d.get("label", ""), d.get("descriptor", ""))
+    qs = d.get("quarters", []); nq = max(1, len(qs))
+    gx0, gw = 3.5, 9.3; colw = gw / nq
+    for i, q in enumerate(qs):
+        txt(s, gx0 + colw * i, 1.85, colw, 0.3, q, 8.5, GREY, align=PP_ALIGN.CENTER)
+    rows = d.get("rows", [])
+    for i, r in enumerate(rows):
+        name, start, dur = r[0], float(r[1]), float(r[2])
+        milestone = bool(r[3]) if len(r) > 3 else False
+        y = 2.2 + i * 0.5
+        txt(s, 0.6, y, 2.85, 0.45, name, 9, NAVY)
+        b = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(gx0 + colw * start),
+                               Inches(y + 0.03), Inches(colw * dur), Inches(0.3))
+        b.fill.solid(); b.fill.fore_color.rgb = AMBER if milestone else MID
+        b.line.fill.background(); b.shadow.inherit = False
+    box(s, 0.6, 6.5, 4.5, 0.42, CREAM, line=HAIR)
+    txt(s, 0.7, 6.57, 4.3, 0.32, "■ amber = mijlpaal/beslissing (C&W)", 9, NAVY)
+    if d.get("note"):
+        txt(s, 5.3, 6.57, 7.5, 0.3, d["note"], 8, GREY, italic=True)
+
+
+def cases(s, d):
+    head(s, d.get("label", ""), d.get("descriptor", ""))
+    cs = d.get("cases", [])
+    for i in range(min(4, len(cs))):
+        x = 0.6 + i * 3.12
+        box(s, x, 1.95, 2.92, 4.3, WHITE, line=HAIR)
+        box(s, x + 0.1, 2.05, 2.72, 1.5, MID)
+        txt(s, x + 0.1, 2.6, 2.72, 0.4, cs[i].get("photo", "[ FOTO ]"), 10, GREY, align=PP_ALIGN.CENTER)
+        txt(s, x + 0.15, 3.7, 2.62, 0.4, cs[i].get("name", f"REFERENCE {i+1}"), 11, AMBER, bold=True)
+        txt(s, x + 0.15, 4.1, 2.62, 2.0, cs[i].get("body", ""), 9, NAVY)
+
+
 DISPATCH = {"cover": cover, "contents": contents, "scqa": scqa, "cards": cards,
             "statement": statement, "table": table, "kpi": kpi, "timeline": timeline,
-            "fee": fee, "blank": blank, "closing": closing}
+            "fee": fee, "blank": blank, "closing": closing,
+            "compare": compare, "hub": hub, "org": org, "gantt": gantt, "cases": cases}
 
 for d in spec["slides"]:
     s = sld()

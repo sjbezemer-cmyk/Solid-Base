@@ -13,21 +13,21 @@ De opbouw is altijd hetzelfde. Vul `{{variabelen}}` uit `intake.json`. Per slide
 | 5 | `cards` | Complication — 3 krachten (huurder/levering/deadline) |
 | 6 | `statement` | Governing answer: "Make C&W your single point of control" + triad |
 | 7 | `cards` | Our answer — 3: {{tenant}} aware & aligned / organize works / control from afar |
-| 8 | `cards` | Playing field — partijen; C&W als hub |
-| 9 | `cards` | Two routes ({{advisor}}-scenario's) — vergelijking |
+| 8 | `hub` | Playing field — partijen; C&W als hub |
+| 9 | `compare` | Two routes ({{advisor}}-scenario's) — vergelijking |
 | 10 | `cards` | Deep dive 1 — deliver works, {{tenant}} fully aware & aligned (klant-eigen woorden) |
 | 11 | `cards` | Deep dive 2 — organize the works ({{advisor}}-ontwerp → doel) |
 | 12 | `cards` | Success factors (4) |
 | 13 | `timeline` | The journey — vandaag → {{objective}} (indicatief) |
 | 14 | `cards` | Engagement model — {{phasing}} |
-| 15 | `timeline`/`table` | Planning (indicatief, te valideren met {{advisor}}) |
-| 16 | `cards` | Organisation — {{team.model}}, de twee PM's als hart |
+| 15 | `gantt` | Planning (indicatief, te valideren met {{advisor}}) |
+| 16 | `org` | Organisation — {{team.model}}, de twee PM's als hart |
 | 17 | `table` | Governance & decision rights (RACI) |
 | 18 | `kpi` | Reporting — één pagina/maand |
 | 19 | `table` | Risk — RAG; gekoppeld aan huurder/budget/deadline |
 | 20 | `cards` | Why C&W (4) |
 | 21 | `blank` | **TEAM — LEEG** |
-| 22 | `cards` | Track record — referentiekaarten (`[ FOTO ]`, placeholders) |
+| 22 | `cases` | Track record — referentiekaarten (`[ FOTO ]`, placeholders) |
 | 23 | `fee` | Fee per fase (`€ [ • ]`) + rate card 2026 + assumptions (DNR 2011) |
 | 24 | `closing` | Picture {{building}} in [jaar] + 5 next steps + contact |
 
@@ -39,3 +39,23 @@ De opbouw is altijd hetzelfde. Vul `{{variabelen}}` uit `intake.json`. Per slide
   (bevestig per pitch met Frank).
 
 Zie `slides.example.json` voor het exacte JSON-formaat per type.
+Beschikbare types: `cover · scqa · contents · cards · statement · table · kpi · timeline · fee · blank ·
+closing · compare · hub · org · gantt · cases`.
+
+---
+
+## Extensie-slides (optioneel — voeg toe als de pitch erom vraagt)
+Deze missen in de basis-24 maar maken een voorstel vaak sterker. Kies per pitch; elk mapt op een bestaand type.
+
+| Slide | type | Waarom sterk |
+|---|---|---|
+| **Sustainability / Paris Proof-pathway** | `timeline`/`cards` | Voor een verduurzamingspitch bijna essentieel: energielabel-route, WEii/Paris Proof-doel, BREEAM, net-zero — C&W's ESG-geloofwaardigheid |
+| **Business case / value voor de klant** | `kpi`/`cards` | Beleggers kopen waarde, geen activiteit: compliance geborgd, asset value beschermd/uplift, energiebesparing, tenant retention → inkomen |
+| **Tenant journey / communicatieplan** | `timeline` | De huurder is de crux: maand-voor-maand hoe {{tenant}} het project ervaart (concreet, naast de deep-dive) |
+| **Procurement & tenderstrategie** | `timeline`/`cards` | Hoe we de aannemer selecteren en managen (market sounding → tender → gunning → sturing) |
+| **HSSE — veilig werken in een gebruikt gebouw** | `cards` | Veiligheid, geluidsvensters, vergunningen, minimale verstoring — verwacht en geloofwaardig |
+| **Assumptions, scope & exclusions** | `cards`/`table` | De grens-slide: wat in/out, aannames, afhankelijkheden — toont realisme en volwassenheid |
+| **Flagship case study (diep)** | `kpi`/`cards` | Eén referentie in detail (uitdaging → aanpak → resultaat) als hard bewijs |
+| **Integrated services / one C&W team** | `cards` | De volledige PDS-dienstenrange die de klant kan benutten (cross-sell + geloofwaardigheid) |
+| **Digital & tooling** | `kpi`/`cards` | DMS, live dashboards, BIM/digital twin, rapportageportaal — modern & onderscheidend |
+| **Programme phasing / critical path** | `timeline`/`cards` | Verdieping-voor-verdieping logica (relocation-first, commissioning vóór teruggave) |
